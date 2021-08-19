@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+      'Procedimiento para la aceptación del pasajero en lengua inglesa',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
+      'El inglés aeronáutico es especializado, es en ingles por ser la lengua estándar establecida por la OACI; cuyos códigos, terminologías y vocabularios envuelven situaciones particulares, esto último indica que la enseñanza de este tipo de inglés está enfocado a una población específica, es una herramienta básica para desenvolverse mejor y para poder ofrecer una atención al cliente completa y competitiva.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
