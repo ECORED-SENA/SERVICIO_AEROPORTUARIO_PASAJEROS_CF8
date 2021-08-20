@@ -5,23 +5,23 @@
     .titulo-principal
       .titulo-principal__numero
         span  1
-      h1 Management process in counter // Proceso de manejo en counter
+      h1 Management process in counter // <i>Proceso de manejo en counter</i>
 
-      #t_1_1.titulo-segundo
-        h2 1.1. Passenger security interview // Entrevista de seguridad del pasajero
-
-
-      #t_1_2.titulo-segundo
-        h2 1.2  Airport information // Información del aeropuerto
+    #t_1_1.titulo-segundo
+      h2 1.1. Passenger security interview // <i>Entrevista de seguridad del pasajero</i>
 
 
+    #t_1_2.titulo-segundo
+      h2 1.2  Airport information // <i>Información del aeropuerto</i>
 
-      #t_1_3.titulo-segundo
-        h2 1.3  Validation of information in travel documents // Validación de la información de los documentos del viaje
 
 
-      #t_1_4.titulo-segundo
-        h2 1.4  Offer and charging of special services // Oferta y cobro de servicios especiales
+    #t_1_3.titulo-segundo
+      h2 1.3  Validation of information in travel documents // <i>Validación de la información de los documentos del viaje</i>
+
+
+    #t_1_4.titulo-segundo
+      h2 1.4  Offer and charging of special services // <i>Oferta y cobro de servicios especiales</i>
 
 
 

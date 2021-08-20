@@ -9,21 +9,30 @@
           i.fas.fa-info
       h1 Introducción
     
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        figure
+          img.nW(src='@/assets/curso/t0-i1.svg', alt='Personas haciendo fila para registrarse en sala de espera')
+
+    .cajon.color-secundario.p-5.mb-5
+      p.mb-4  The check-in or passenger registration process at the airport and the passenger boarding process are of great importance for the flight close-out. Most airlines have implemented the use of technology to make these processes more effecient. When the check-in, at the start of the flight, or in a connecting flight, is performed in a timely and effective manner, time and resources are minimized and the generation of non-conformities from users is avoided.
+      p Good service and the efficient execution of technical procedures that facilitate the trip is key to the satisfaction of a traveler.
     
-    p.mb-5 La necesidad de mitigar la pandemia por COVID-19 ha obligado a la comunidad científica internacional, a desarrollar una serie de investigaciones y desarrollos tendientes a presentar una vacuna para hacerle frente a esta enfermedad que aumenta día a día su morbi mortalidad en Colombia. Es así, como en diciembre de 2020, la comunidad científica presenta los resultados de varios desarrollos de vacunas, que ofrecen eficacia y seguridad, respaldados por estudios clínicos rigurosos.
+    p.mb-4.text-it  El proceso de check-in o de registro de pasajeros en aeropuerto y el proceso de embarque de pasajeros son de gran importancia para el cierre de un vuelo. La mayoría de las aerolíneas ha implementado el uso de la tecnología para agilizar dichos procesos. Cuando el registro en el inicio del vuelo o en conexión es ejecutado de manera oportuna y efectiva, se minimizan tiempos y recursos y se evita la generación de inconformidades por parte de los usuarios.
+    p.text-it El buen servicio y la eficiente ejecución de procedimientos técnicos que faciliten el viaje es clave para la satisfacción de un viajero.
 
-    figure.mb-5
-      img(src="@/assets/curso/banner-intro.jpg", alt="Texto que describa la imagen")
-      figcaption Imagen 1. Vacunación
 
-    p.mb-0 La llegada de nuevas vacunas al país supone un reto para el talento humano en salud responsable de la vacunación y desarrollar habilidades para ofrecer una orientación oportuna y segura a las personas objeto de la vacuna.
-      br
-      br
-      | En ese orden de ideas, este componente formativo guía al aprendiz hacia la identificación de los aspectos normativos, técnicos y operativos de la vacunación contra COVID19 en Colombia y de las generalidades de la infección por SARS-2 COVID 19.
+
+
+
+
+
+
+
+
+
+
+
 
 </template>
 

@@ -24,32 +24,36 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo:
+          'Management process in counter // <i>Proceso de manejo en counter</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo:
+              'Passenger security interview // <i>Entrevista de seguridad del pasajero</i>',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Airport information // <i>Información del aeropuerto</i>',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
+            titulo:
+              'Validation of information in travel documents // <i>Validación de la información de los documentos del viaje</i>',
+            hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
+            titulo:
+              'Offer and charging of special services // <i>Oferta y cobro de servicios especiales</i>',
+            hash: 't_1_4',
           },
         ],
       },
@@ -64,13 +68,15 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo:
+              'Making of boarding announcements at the boarding gate área // <i>Manejo de anuncios en sala de abordaje</i>',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo:
+              'Completion of reports and forms for the boarding process // <i>Diligenciamiento de informes y formatos para el proceso de abordaje</i>',
             hash: 't_2_2',
           },
         ],
