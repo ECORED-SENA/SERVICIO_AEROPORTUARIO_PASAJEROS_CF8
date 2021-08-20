@@ -663,11 +663,45 @@
     br  
     #t_1_4.titulo-segundo
       h2 1.4  Offer and charging of special services // <i>Oferta y cobro de servicios especiales</i>
+    .row.justify-content-end.mb-5
+      .col-lg-9
+        .cajon.color-secundario.p-5.mb-5
+          p.mb-0  When traveling, situations may arise that require special and specific handling. For this reason, it is important to recognize some of the most common special services of at the time of passenger check-in.
+        p.mb-3  En el momento de un viaje pueden surgir situaciones que ameriten de manejos específicos, por esta razón es importante reconocer algunos de los servicios especiales más comunes de trabajar al momento del registro de pasajeros.
+
+    h3.titulo-tercero A. Some Special Services // <i>Algunos Servicios Especiales</i>
+    p.mb-5  Let´s explore together some of the main special services requested by passengers. // <i>Explorar algunos de los principales servicios especiales solicitados por los pasajeros.</i>
+
+    //-- Aqui vienen los tabs
 
 
+    h3.titulo-tercero B. EMD (Electronic Miscellaneous Document) issued for the first extra piece of luggage // <i>[Documento Electrónico Misceláneo emitido para la primera pieza de equipaje adicional.</i>
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .bg-soft-blue.p-4
+          ImagenInfografica.color-secundario.mb-5
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+
+            .tarjeta.color-secundario.p-3(x="20%" y="20%")
+              .h5.mb-2 titulo
+              p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+
+            .tarjeta.color-secundario.p-3(x="50%" y="50%")
+              .h5.mb-2 titulo
+              p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+
+            .tarjeta.color-secundario.p-3(x="70%" y="70%")
+              .h5.mb-2 titulo
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
 
 
-
+    h3.titulo-tercero C. Requesting the Wheelchair Assitance Service // <i>Solicitud del servicio de asistencia en silla de ruedas</i>
+    p.mb-5  The following is a dialogue in which a passenger has requested a the wheelchair assistance service. // <i>A continuación se muestra un diálogo en el que un pasajero ha solicitado el servicio de asistencia en silla de ruedas.</i>
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 
