@@ -452,6 +452,209 @@
     //- Slide 3
     SlyderB.mb-5(:datos="datosSlyder3")    
 
+    h3.titulo-tercero B. EMD (Electronic Miscellaneous Document) // <i>Documento Electrónico Misceláneo</i>
+    p.mb-5 Let´s explore some aspects related to EMDs. // <i>Explorar algunos aspectos relacionados con los EMDs.</i>
+    .row.justify-content-center.mb-5
+      .col-lg-3
+        figure
+          img.nW(src='@/assets/curso/t1-i9.svg', alt='imagen decorativa')        
+      .col-lg-9
+        .cajon.color-secundario.p-5.mb-5
+          .bloque-texto-b.color-secundario.p-4
+            .bloque-texto-b__texto
+              i.fas.fa-quote-left
+              p.mb-0  An EMD (Electronic Miscellaneous Document) is the standard technology established by the industry which, through the creation of a virtual document, automates and simplifies to the maximum the communication of information related to the acquisition and payment of ancillary services of the airlines, whether those related to the flight (meals on board, choice of seat, preferred boarding, etc.) or supplied by third parties (hotel, car rental, etc.).<br>
+              .bloque-texto-d__autor
+                p.text-bold According to Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p.6)
+              i.fas.fa-quote-right
+ 
+        .bloque-texto-b.color-secundario.p-4
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            p.mb-0.text-it  Un EMD (Documento Electrónico Misceláneo) es la tecnología estándar fijada por la industria que mediante la creación de un documento virtual automatiza y simplifica al máximo la comunicación de la información relativa a la adquisición y pago de servicios auxiliares de las aerolíneas, ya sean los vinculados al vuelo (comida a bordo, elección de asiento, embarque preferente, etc.) o suministrados por terceros (hotel, alquiler de coche, etc.).<br>
+            .bloque-texto-d__autor
+              p.text-bold.text-it - According to Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p.6)
+            i.fas.fa-quote-right
+
+    h4.titulo-cuarto Standalone EMD (EMD-S) vs Associated EMD (EMD-A)
+    p.mb-5  This two types of EMD differ in their behaviour and usage. Here are the main characteristics: // <i>Estos dos tipos de EMD difieren en su comportamiento y uso. Aquí están las principales características:</i>
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .cajon.color-secundario.p-5.mb-5
+          .bloque-texto-b.color-secundario.p-4.mb-4
+            .bloque-texto-b__texto
+              i.fas.fa-quote-left
+              p.mb-0.text-bold  An Standalone EMD (EMD-S) is issued for non-flight related services or for other charges (SVC elements), that is, it is independent of a ticket. For example: access to the VIP lounge, parking at the airport, etc.<br>
+              i.fas.fa-quote-right
+          .bloque-texto-b.color-secundario.p-4
+            .bloque-texto-b__texto
+              i.fas.fa-quote-left
+              p.mb-0.text-bold  An Associated EMD (EMD-A) is issued for services associated with a ticket (SSR elements), so both documents are connected. For example: special meals, seat reservations, extra luggage, unaccompanied minor etc.<br>
+              .bloque-texto-d__autor
+                p.text-bold - According to Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p.7)
+              i.fas.fa-quote-right
+
+        .bloque-texto-b.color-secundario.p-4.mb-4
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            p.mb-0.text-it  Un Standalone EMD (EMD-S) = (EMD SEPARADO) se emite para servicios no relacionados con el vuelo o para otros cargos (elementos SVC), es decir, es independiente de un tiquete. Por ejemplo: acceso a Sala VIP, parqueo en el aeropuerto, etc.<br>
+            i.fas.fa-quote-right
+        .bloque-texto-b.color-secundario.p-4
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            p.mb-0.text-it  Un Associated EMD (EMD-A) = (EMD ASOCIADO) se emite para servicios asociados a un tiquete (elementos SSR), por lo que ambos documentos van conectados. Por ejemplo: comidas especiales, reservas de asientos, equipaje extra, menor no acompañado etc.<br>
+            .bloque-texto-d__autor
+              p.text-bold.text-it - Según Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p.7)
+            i.fas.fa-quote-right
+
+
+    .row.mb-5.justify-content-center
+      .col-lg-12
+        .tabla-b.color-acento-contenido.mb-5
+          table.custom-checkList
+            tr.tabla-b__header.text-white
+              th.bg-yellow-head  Standalone EMD (EMD-S)
+              th.text-it  EMD separado
+            tr
+              td 
+                i.fas.fa-check
+                p A standalone EMD is issued for a residual value or the collection of miscellaneous charges that are not lifted with an e-ticket coupon. For example, lounge access, Tshirts, vouchers, taxi transportation, car hire, hotel accommodation, train tickets, rebooking or cancellation fees, and so on. 
+              td.text-it
+                i.fas.fa-check
+                p Se emite un EMD separado (independiente) por un valor residual o el cobro de cargos varios que no se eliminan con un cupón de tiquete electrónico. Por ejemplo, acceso al salón, camisetas, vouchers, transporte en taxi, alquiler de vehículos, alojamiento en hotel, tiquetes de tren, tarifas de cambio de reserva o cancelación, etc. 
+            tr
+              td 
+                i.fas.fa-check
+                p The standalone EMD can consist of a single or multiple value coupons. 
+              td.text-it
+                i.fas.fa-check
+                p El EMD separado (independiente) puede consistir en cupones de valor único o múltiple.
+            tr
+              td 
+                i.fas.fa-check
+                p It can contain a reference to an e-ticket. 
+              td.text-it
+                i.fas.fa-check
+                p Puede contener una referencia a un tiquete electrónico.
+            tr
+              td 
+                i.fas.fa-check
+                p It can be consumed at issuance or used at different stages.
+              td.text-it
+                i.fas.fa-check
+                p Puede consumirse en la emisión o utilizarse en diferentes etapas.
+            tr
+              td 
+                i.fas.fa-check
+                p Once issued, it has no further interaction with the airline systems (reservation systems and Departure Control System - DCSs -). 
+              td.text-it
+                i.fas.fa-check
+                p Una vez emitido, no tiene más interacción con los sistemas de la aerolínea (sistemas de reserva y sistemas de control de salida).
+
+
+    .row.mb-5.justify-content-center
+      .col-lg-12
+        .tabla-b.color-acento-contenido.mb-5
+          table.custom-checkList
+            tr.tabla-b__header.text-white
+              th.bg-yellow-head  Associated EMD (EMD-A)
+              th.text-it  EMD asociado
+            tr
+              td 
+                i.fas.fa-check
+                p An associated EMD is issued for the collection of miscellaneous charges and excess Baggage charges that are lifted (considered used) at the same time as the e-ticket coupon. For example, sports equipment, pets in cabin, wheelchairs, special seats and meals, unaccompanied minors, excess baggage, and so on.
+              td.text-it
+                i.fas.fa-check
+                p Se emite un EMD asociado para el cobro de cargos varios y cargos por exceso de equipaje que se levantan (se consideran usados) al mismo tiempo que el cupón del tiquete electrónico. Por ejemplo, equipo de deportes, mascotas en cabina, sillas de ruedas, asientos y comidas especiales, menores no acompañados, exceso de equipaje, etc.
+            tr
+              td 
+                i.fas.fa-check
+                p The associated EMD can consist of a single or multiple value coupons that are directly linked to individual flight coupons.
+              td.text-it
+                i.fas.fa-check
+                p El EMD asociado puede constar de un único cupón o cupones de valor múltiple que están directamente vinculados a cupones de vuelo individuales.
+            tr
+              td 
+                i.fas.fa-check
+                p Each EMD coupon that is associated to an eticket is referenced in the e-ticket record.
+              td.text-it
+                i.fas.fa-check
+                p Cada cupón de EMD asociado a un tiquete electrónico es referenciado en el registro del tiquete electrónico.
+            tr
+              td 
+                i.fas.fa-check
+                p The carrier and the routing of the EMD-A and the e-ticket coupons must match.
+              td.text-it
+                i.fas.fa-check
+                p El operador y la ruta del EMD-A y los cupones de tiquetes electrónicos deben coincidir.
+            tr
+              td 
+                i.fas.fa-check
+                p An EMD-A can be automatically or manually associated or disassociated.
+              td.text-it
+                i.fas.fa-check
+                p Un EMD-A puede ser automática o manualmente asociado o disociado.
+            tr
+              td 
+                i.fas.fa-check
+                p Only airline agents can manually associate and disassociate EMD-As.
+              td.text-it
+                i.fas.fa-check
+                p Solo los agentes de la aerolínea pueden asociar y disociar EMD-As.
+            tr
+              td 
+                i.fas.fa-check
+                p The EMD-A's final usage depends on the e-ticket coupon it is associated to, provided that it does not become disassociated.
+              td.text-it
+                i.fas.fa-check
+                p El uso final del EMD-A depende del cupón de tiquete electrónico al que está asociado, siempre que no se disocie.
+            tr
+              td 
+                i.fas.fa-check
+                p The status of the associated EMD value coupons and the e-ticket coupons must remain synchronized.
+              td.text-it
+                i.fas.fa-check
+                p El estado de los cupones de valor de los EMD asociados y los cupones de los tiquetes electrónicos debe permanecer sincronizado.
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cajon.color-acento-contenido.p-4
+          p.mb-0 Información adaptada de Amadeus Altéa Reservation Desktop Web - Guía del usuario - Edición 3.3. (2016, p.270)
+
+    h3.titulo-tercero C. EMD (Electronic Miscellaneous Document) issued for the checking of the third bag  // <i>Documento Electrónico Misceláneo emitido por el registro de una tercera maleta.</i>
+    p.mb-5.p-4
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bg-soft-blue.p-4
+          figure
+            img.centered(src='@/assets/curso/t1-t1.png', alt='ejemplo de EMD')        
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        ul.lista-ul.compress
+          li
+            p <b>EMD 00128000010</b> // <i>Número del EMD</i>
+          li
+            p <b>LOC -2437PA (RECORD LOCATOR) </b> // <i>Lugar de Emisión (en este caso BOGOTÁ)</i>
+          li
+            p <b>DOI-17APR13 (DATE OF ISSUE)</b> // <i>Fecha de Emisión</i>
+          li
+            p <b>PAX – AVILA/CLAUDIA</b> // <i>(Aquí normalmente aparece el apellido y el nombre del Pasajero – AVILA/ CLAUDIA)</i>
+          li
+            p <b>ADT (ADULT) </b> // <i>Adulto</i>
+          li
+            p <b>RFIC-C BAGGAGE</b> // <i>Hace referencia al concepto de emisión del EMD (en este caso por equipaje)</i>
+          li
+            p <b>REMARKS</b> // <i>Comentarios</i>
+          li
+            p <b>CPN – 1 (COUPON)</b> // <i>Cupón asociado al primer trayecto del tiquete</i>
+          li
+            p <b>DESCRIPTION – CHECKED BAG THIRD</b> // <i>(Descripción – se está cobrando una tercera pieza de equipaje registrada)</i>
+          li
+            p <b>AA</b> // <i>American Airlines (Código del nombre de la aerolínea)</i>
+          li
+            p <b>BOGMIA</b> // <i>Código del aeropuerto donde inicia y donde termina el cupón (BOG = Aeropuerto El Dorado en Bogotá; MIA = Aeropuerto Internacional de Miami, en Miami)</i>
+          li
+            p <b>S-O (Status Open For Use)</b> // <i>Estado de la EMD abierto.</i>
 
 
 
