@@ -5,7 +5,7 @@ export default {
     descripcionCurso:
       'El inglés aeronáutico es especializado, es en ingles por ser la lengua estándar establecida por la OACI; cuyos códigos, terminologías y vocabularios envuelven situaciones particulares, esto último indica que la enseñanza de este tipo de inglés está enfocado a una población específica, es una herramienta básica para desenvolverse mejor y para poder ofrecer una atención al cliente completa y competitiva.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
