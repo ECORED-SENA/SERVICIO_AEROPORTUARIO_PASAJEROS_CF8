@@ -341,6 +341,77 @@
     
     h4.titulo-cuarto PART 1 – APPLICATION, DEVICE AND NAVIGATION MENU // 
       span.text-normal  [PARTE 1 – LOS MENÚ DE APLICACIÓN, DISPOSITIVO Y NAVEGACIÓN]
+    .row.mb-5.justify-content-center
+      .col-lg-4
+        .bg-soft-blue      
+          ImagenInfografica.color-acento-botones.mb-5
+            template(v-slot:imagen)
+              figure
+                img.shadow-box(src='@/assets/curso/info-1.png', alt='Ejemplo')
+            .tarjeta.color-secundario.p-3.text-center(x="15%" y="0%")
+              p Applications // [Aplicaciones]
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="10%")
+              p Customer // Cliente            
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="16%")
+              p Flight // Vuelo
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="23%")
+              p Seatmap // Mapa de Asientos
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="29%")
+              p Baggage // Equipaje
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="35%")
+              p Boarding // Abordaje, embarque
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="41%")
+              p Boarding Monitor // Monitor de Embarque 
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="47%")
+              p Track or tracking // Búsqueda de maleta
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="52%")
+              p Reservations // Reservas                          
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="58%")
+              p Teletype (TTY) // Mensajes entre áreas internas
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="64%")
+              p Teletype Template Admin // Mensajes entre áreas internas  
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="70%")
+              p My User ID Details // Detalles de mi Usuario
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="76%")
+              p My Preferences // Mis Preferencias        
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="82%")
+              p Messenger // Mensajería                                
+
+
+      .col-lg-4
+        .wrap-Image.mb-5
+          ImagenInfografica.color-acento-botones.mb-5
+            template(v-slot:imagen)
+              figure
+                img.shadow-box(src='@/assets/curso/info-2.png', alt='Ejemplo')
+            .tarjeta.color-secundario.p-3.text-center(x="8%" y="0%")
+              p Device // Dispositivo
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="66%")
+              p Print Screen // Imprimir Pantalla (permitirá imprimir una versión críptica de la pantalla en la que se encuentre en Customer Management).
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="85%")
+              p Connected Devices Status // Estado de los dispositivos conectados.
+        //-- imagen slot 2
+        .wrap-Image.mb-5
+          ImagenInfografica.color-acento-botones.mb-5
+            template(v-slot:imagen)
+              figure
+                img.shadow-box(src='@/assets/curso/info-3.png', alt='Ejemplo')
+            .tarjeta.color-secundario.p-3.text-center(x="8%" y="0%")
+              p Navigation // [Navegación
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="25%")
+              p Jump Left One Tab // Saltar una Pestaña a la Izquierda
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="42%")
+              p Jump Right One Tab // Saltar una Pestaña a la Derecha
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="57%")
+              p Toggle to Previous Tab // Cambiar a la Pestaña Anterior          
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="73%")
+              p Close // Cerrar (para cerrar la aplicación que esté desplegada actualmente)   
+            .tarjeta.color-secundario.p-3.text-center(x="3%" y="88%")
+              p Close Files // Cerrar Archivos o Aplicaciones (permite desplegar una lista con todas las aplicaciones que actualmente estén abiertas).   
+
+    
+    h4.titulo-cuarto PART 2 – CLOSE FILE OPTION // 
+      span.text-normal  [PARTE 2 – LA OPCIÓN DE CERRAR APLICACIONES]      
     .row.justify-content-center.mb-5
       .col-lg-5
         .bg-soft-blue.p-4      
@@ -373,9 +444,9 @@
         .cajon.color-secundario.px-5.mb-5.py-4
           p.mb-0.text-bold Note: A maximum of 10 application tabs can be opened at the same time. These are arranged from 0 to 9 by the system.
         p.text-it Nota: Pueden ser abiertas un máximo de diez (10) fichas de aplicaciones al mismo tiempo. Estas son ordenadas por el sistema del 0 al 9.
-    
-    h4.titulo-cuarto PART 2 – CLOSE FILE OPTION // 
-      span.text-normal  [PARTE 2 – LA OPCIÓN DE CERRAR APLICACIONES]
+
+    h4.titulo-cuarto PART 3 – LOGOFF AND HELP MENU // 
+      span.text-normal  PARTE 3 – [MENÚ PARA SALIR DEL SISTEMA Y MENU DE AYUDA]      
     .row.justify-content-center.mb-5
       .col-lg-6
         .bg-soft-blue.p-4      
@@ -390,8 +461,7 @@
             .tarjeta.color-secundario.p-3.text-center(x="5%" y="51%")
               p Exit // Salir               
     
-    h4.titulo-cuarto PART 3 – LOGOFF AND HELP MENU // 
-      span.text-normal  PARTE 3 – [MENÚ PARA SALIR DEL SISTEMA Y MENU DE AYUDA]
+
     .row.justify-content-center.mb-5
       .col-lg-6
         .bg-soft-blue.p-4      
