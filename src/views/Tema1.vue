@@ -858,27 +858,12 @@
 
 
 
-
-
-
-
-
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
   
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
   data: () => ({
     datosSlyder: [
       {
@@ -1003,61 +988,61 @@ export default {
         titulo: 'VISA',
         texto:
           '<p>An official stamp or mark made on a passport, which permits the holder to enter the country.</p>',
-        imagen: require('@/assets/curso/t1-s3.png'),
+        imagen: require('@/assets/curso/s3-i1.png'),
       },
       {
         titulo: 'TRANSIT VISA',
         texto:
           '<p>An airport transit visa allows a traveler to pass through the international zone of an airport, without entering the country’s territory.</p>',
-        imagen: require('@/assets/curso/t1-s3.png'),
+        imagen: require('@/assets/curso/s3-i2.png'),
       },
       {
         titulo: 'RESIDENCE CARD/PERMIT',
         texto:
           '<p>A document or card required in some regions, allowing a foreign national to reside in a country for a fixed or indefinite length of time.</p>',
-        imagen: require('@/assets/curso/t1-s3.png'),
+        imagen: require('@/assets/curso/s3-i3.png'),
       },
       {
         titulo: 'BOARDING PASS',
         texto:
           '<p>A pass for boarding an aircraft, given to passengers when checking in.</p>',
-        imagen: require('@/assets/curso/t1-s3.png'),
+        imagen: require('@/assets/curso/s3-i4.png'),
       },
       {
         titulo: 'LUGGAGE LABLE/TAG',
         texto:
           '<p>A small piece of card or plastic with your name and address written on it that you fasten to a bag or case to show that it belongs to you.</p>',
-        imagen: require('@/assets/curso/t1-s3.png'),
+        imagen: require('@/assets/curso/s3-i5.png'),
       },
       {
         titulo: 'BIRTH CERTIFICATE',
         texto:
           '<p>An official document giving details of the time and place of a person&apos;s birth, and his or her name, sex, and the name of the parents.</p>',
-        imagen: require('@/assets/curso/t1-s3.png'),
+        imagen: require('@/assets/curso/s3-i6.png'),
       },
       {
         titulo: 'IDENTIFICATION CARD',
         texto:
           '<p>A card giving identifying data about a person, as full name, address, age, and color of hair and eyes, and often containing a photograph.</p>',
-        imagen: require('@/assets/curso/t1-s3.png'),
+        imagen: require('@/assets/curso/s3-i7.png'),
       },
       {
         titulo: 'MIGRATION REQUIREMENTS',
         texto:
           '<p>Conditions for changing one’s palce of residence from one country, or region within a country, to another.</p>',
-        imagen: require('@/assets/curso/t1-s3.png'),
+        imagen: require('@/assets/curso/s3-i8.png'),
       },
       {
         titulo: 'MIGRATION REQUIREMENTS',
         texto:
           '<p>A paper document that gives details of the diseases you have been vaccinated against. It is also known as an <i>International Certificate of Vaccination or Prophylaxis.</i> or ICVP.</p>',
-        imagen: require('@/assets/curso/t1-s3.png'),
+        imagen: require('@/assets/curso/s3-i9.png'),
       },
       {
         titulo: 'HEALTH CERTIFICATE',
         texto:
           '<p>A certificate attesting a person’s good health, sometimes required when travelling between states or countries.</i> or ICVP.</p>',
-        imagen: require('@/assets/curso/t1-s3.png'),
+        imagen: require('@/assets/curso/s3-i10.png'),
       },
     ],
   }),
