@@ -342,21 +342,53 @@
     
     h4.titulo-cuarto PART 1 – APPLICATION, DEVICE AND NAVIGATION MENU // 
       span.text-normal  [PARTE 1 – LOS MENÚ DE APLICACIÓN, DISPOSITIVO Y NAVEGACIÓN]
-    //- Aqui vienen las imagenes horrorosas
+    //-- Aqui vienen las imagenes horrorosas
     
     
     h4.titulo-cuarto PART 2 – CLOSE FILE OPTION // 
       span.text-normal  [PARTE 2 – LA OPCIÓN DE CERRAR APLICACIONES]
-    //- Aqui vienen las imagenes horrorosas    
+    //-- Aqui vienen las imagenes horrorosas    
     
     
     h4.titulo-cuarto PART 3 – LOGOFF AND HELP MENU // 
       span.text-normal  PARTE 3 – [MENÚ PARA SALIR DEL SISTEMA Y MENU DE AYUDA]
-    //- Aqui vienen las imagenes horrorosas        
-    
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .bg-soft-blue.p-4      
+          ImagenInfografica.color-acento-botones.mb-5
+            template(v-slot:imagen)
+              figure
+                img.shadow-box(src='@/assets/curso/info-6.png', alt='Ejemplo')
+            .tarjeta.color-secundario.p-3.text-center(x="1%" y="1%")
+              p About // [Acerca de (Seleccionar la opción About JFE desplegará una ventana emergente que contiene la siguiente información) 
+            .tarjeta.color-secundario.p-3.text-center(x="30%" y="20%")
+              p Copyright // Derechos de autor 
+            .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+              p User // Usuario 
+            .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+              p Environment // Ambiente sobre el que se está trabajando 
+            .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+              p Duty Code // Categoría de la firma 
+            .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+              p Altea Fly CM – 27.2.8 // Corresponde a la versión de Amadeus sobre la que se trabaja
+            .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+              p Java Version // Versión de Java que está siendo usada                           
+            .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+              p Workstation Id // ID de la Estación de Trabajo   
+            .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+              p Full Location // Locación
+
     h4.titulo-cuarto PART 4 – SENDING ERROR REPORT // 
-      span.text-normal  [PARTE 4 – ENVIANDO REPORTE DE ERRORES]
-    //- Aqui vienen las imagenes horrorosas       
+      span.text-normal.text-it  [PARTE 4 – ENVIANDO REPORTE DE ERRORES]
+    .row.justify-content-center.mb-5
+      .col-lg-4
+        ImagenInfografica.color-acento-botones.mb-5
+          template(v-slot:imagen)
+            figure
+              img.shadow-box(src='@/assets/curso/info-7.png', alt='Ejemplo EMD')
+          .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+            p El Reporte de Error ha sido enviado a Amadeus<br>Gracias por su apoyo <br> OK
+  
 
     
     Separador
@@ -682,20 +714,28 @@
           ImagenInfografica.color-secundario.mb-5
             template(v-slot:imagen)
               figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/info-8.png', alt='Ejemplo EMD')
 
-            .tarjeta.color-secundario.p-3(x="20%" y="20%")
-              .h5.mb-2 titulo
-              p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+            .tarjeta.color-secundario.p-3(x="1%" y="3%")
+              p EMD 00128000010 // Número del EMD
 
-            .tarjeta.color-secundario.p-3(x="50%" y="50%")
-              .h5.mb-2 titulo
-              p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+            .tarjeta.color-secundario.p-3(x="1%" y="21%")
+              p PAX – AVILA/CLAUDIA
 
-            .tarjeta.color-secundario.p-3(x="70%" y="70%")
-              .h5.mb-2 titulo
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
+            .tarjeta.color-secundario.p-3(x="1%" y="42%")
+              p DESCRIPTION – FIRST EXTRA PC // (Descripción – se está cobrando una primera pieza de equipaje adicional)
+            .tarjeta.color-secundario.p-3(x="1%" y="83%")
+              p TOTAL VEF // Código de la moneda. Total en bolívar fuerte
+            .tarjeta.color-secundario.p-3(x="1%" y="91%")
+              p FP (Form of Payment) // Forma de Pago
+            .tarjeta.color-secundario.p-3(x="14%" y="91%")
+              p CASH // Efectivo
+            .tarjeta.color-secundario.p-3(x="42%" y="34%")
+              p CCSFCO // Código del aeropuerto donde inicia y donde termina el cupón (CCS = Aeropuerto Caracas; FCO = Aeropuerto de Roma- Fiumicino)
+            .tarjeta.color-secundario.p-3(x="32%" y="38%")
+              p AZ = (ALITALIA)        
+            .tarjeta.color-secundario.p-3(x="55%" y="38%")
+              p S-V (Status Void) // Estado de la EMD anulado
 
     h3.titulo-tercero C. Requesting the Wheelchair Assitance Service // <i>Solicitud del servicio de asistencia en silla de ruedas</i>
     p.mb-5  The following is a dialogue in which a passenger has requested a the wheelchair assistance service. // <i>A continuación se muestra un diálogo en el que un pasajero ha solicitado el servicio de asistencia en silla de ruedas.</i>
