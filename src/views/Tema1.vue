@@ -338,44 +338,84 @@
     
     
     h3.titulo-tercero F. Customer Management System. At the same time the attendant at the counter asks the security questions, she also checks other aspects such as the ticket number, whether or not the passenger is fit to travel and whether they are traveling with children. This information must be included in the system. // <i>Sistema de Manejo de Clientes. Mientras la auxiliar en counter hace las preguntas de seguridad, al mismo tiempo ella revisa otros aspectos como el número de tiquete, si el pasajero está apto para viajar, si lleva niños. Dicha información debe ser incluida en el sistema.</i>
-    //- Aqui vienen las imagenes horrorosas
     
     h4.titulo-cuarto PART 1 – APPLICATION, DEVICE AND NAVIGATION MENU // 
       span.text-normal  [PARTE 1 – LOS MENÚ DE APLICACIÓN, DISPOSITIVO Y NAVEGACIÓN]
-    //-- Aqui vienen las imagenes horrorosas
-    
-    
-    h4.titulo-cuarto PART 2 – CLOSE FILE OPTION // 
-      span.text-normal  [PARTE 2 – LA OPCIÓN DE CERRAR APLICACIONES]
-    //-- Aqui vienen las imagenes horrorosas    
-    
-    
-    h4.titulo-cuarto PART 3 – LOGOFF AND HELP MENU // 
-      span.text-normal  PARTE 3 – [MENÚ PARA SALIR DEL SISTEMA Y MENU DE AYUDA]
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-lg-5
         .bg-soft-blue.p-4      
           ImagenInfografica.color-acento-botones.mb-5
             template(v-slot:imagen)
               figure
-                img.shadow-box(src='@/assets/curso/info-6.png', alt='Ejemplo')
+                img.shadow-box(src='@/assets/curso/info-4.png', alt='Ejemplo')
+            .tarjeta.color-secundario.p-3.text-center(x="5%" y="12%")
+              p Messenger // Mensajería  
+            .tarjeta.color-secundario.p-3.text-center(x="5%" y="29%")
+              p Reservations // Reservas     
+            .tarjeta.color-secundario.p-3.text-center(x="5%" y="40%")
+              p Boarding // Abordaje o Embarque     
+            .tarjeta.color-secundario.p-3.text-center(x="5%" y="35%")
+              p Teletype (TTY) // Mensajes entre áreas internas     
+            .tarjeta.color-secundario.p-3.text-center(x="5%" y="18%")
+              p Customer // Cliente      
+            .tarjeta.color-secundario.p-3.text-center(x="43%" y="5%")
+              p Close File // Cerrar Archivos o Aplicaciones
+            .tarjeta.color-secundario.p-3.text-center(x="20%" y="89%")
+              p Select All // Seleccionar Todas
+            .tarjeta.color-secundario.p-3.text-center(x="43%" y="89%")
+              p None // Ninguna
+            .tarjeta.color-secundario.p-3.text-center(x="98%" y="93%")
+              p Cancel // Cancelar              
+
+    .row.justify-content-center.mb-5
+      .col-lg-8 
+        p.mb-5  Se selecciona(n) la(s) aplicación(es) que se desea(n) cerrar y se presiona la tecla <b>ENTER</b> o se hace clic en el botón <b>OK</b> para proceder.
+        .cajon.color-secundario.px-5.mb-5.py-4
+          p.mb-0.text-bold Note: A maximum of 10 application tabs can be opened at the same time. These are arranged from 0 to 9 by the system.
+        p.text-it Nota: Pueden ser abiertas un máximo de diez (10) fichas de aplicaciones al mismo tiempo. Estas son ordenadas por el sistema del 0 al 9.
+    
+    h4.titulo-cuarto PART 2 – CLOSE FILE OPTION // 
+      span.text-normal  [PARTE 2 – LA OPCIÓN DE CERRAR APLICACIONES]
+    .row.justify-content-center.mb-5
+      .col-lg-6
+        .bg-soft-blue.p-4      
+          ImagenInfografica.color-acento-botones.mb-5
+            template(v-slot:imagen)
+              figure
+                img.shadow-box(src='@/assets/curso/info-5.png', alt='Ejemplo')
+            .tarjeta.color-secundario.p-3.text-center(x="10%" y="1%")
+              p Logoff // Finalizar Sesión (Cerrar el Sistema)  
+            .tarjeta.color-secundario.p-3.text-center(x="5%" y="35%")
+              p Sign In // Iniciar Sesión     
+            .tarjeta.color-secundario.p-3.text-center(x="5%" y="51%")
+              p Exit // Salir               
+    
+    h4.titulo-cuarto PART 3 – LOGOFF AND HELP MENU // 
+      span.text-normal  PARTE 3 – [MENÚ PARA SALIR DEL SISTEMA Y MENU DE AYUDA]
+    .row.justify-content-center.mb-5
+      .col-lg-6
+        .bg-soft-blue.p-4      
+          ImagenInfografica.color-acento-botones.mb-5
+            template(v-slot:imagen)
+              figure
+                img.shadow-box(src='@/assets/curso/info-T6.png', alt='Ejemplo')
             .tarjeta.color-secundario.p-3.text-center(x="1%" y="1%")
               p About // [Acerca de (Seleccionar la opción About JFE desplegará una ventana emergente que contiene la siguiente información) 
-            .tarjeta.color-secundario.p-3.text-center(x="30%" y="20%")
+            .tarjeta.color-secundario.p-3.text-center(x="30%" y="32%")
               p Copyright // Derechos de autor 
-            .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+            .tarjeta.color-secundario.p-3.text-center(x="30%" y="50%")
               p User // Usuario 
-            .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+            .tarjeta.color-secundario.p-3.text-center(x="30%" y="57%")
               p Environment // Ambiente sobre el que se está trabajando 
-            .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+            .tarjeta.color-secundario.p-3.text-center(x="30%" y="75%")
               p Duty Code // Categoría de la firma 
-            .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+            .tarjeta.color-secundario.p-3.text-center(x="63%" y="25%")
               p Altea Fly CM – 27.2.8 // Corresponde a la versión de Amadeus sobre la que se trabaja
-            .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+            .tarjeta.color-secundario.p-3.text-center(x="75%" y="45%")
               p Java Version // Versión de Java que está siendo usada                           
-            .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+            .tarjeta.color-secundario.p-3.text-center(x="88%" y="63%")
               p Workstation Id // ID de la Estación de Trabajo   
-            .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
+            .tarjeta.color-secundario.p-3.text-center(x="55%" y="69%")
               p Full Location // Locación
 
     h4.titulo-cuarto PART 4 – SENDING ERROR REPORT // 
@@ -385,7 +425,7 @@
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
-              img.shadow-box(src='@/assets/curso/info-7.png', alt='Ejemplo EMD')
+              img.shadow-box(src='@/assets/curso/info-T7.png', alt='Ejemplo EMD')
           .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
             p El Reporte de Error ha sido enviado a Amadeus<br>Gracias por su apoyo <br> OK
   
