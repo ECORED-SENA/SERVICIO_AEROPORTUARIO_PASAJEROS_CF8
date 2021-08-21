@@ -246,7 +246,7 @@
         .row
           .col-lg-2
             figure
-              img.nW(src='@/assets/curso/t1-ic1.svg', alt='imagen decorativa')
+              img.nW(src='@/assets/curso/t1-ic2.svg', alt='imagen decorativa')
           .col-lg-10
             .h4 Carry-on Size and Weight Limit
             ul.lista-ul
@@ -266,7 +266,7 @@
         .row
           .col-lg-2
             figure
-              img.nW(src='@/assets/curso/t1-ic1.svg', alt='imagen decorativa')
+              img.nW(src='@/assets/curso/t1-ic3.svg', alt='imagen decorativa')
           .col-lg-10
             .h4 Carry-on Size and Weight Limit
             ul.lista-ul
@@ -781,49 +781,49 @@ export default {
         titulo: 'CHECK-IN DESK/COUNTER',
         texto:
           'The desk (or counter) that airlines have at the airport where passengers register and hand over baggage to the care of the airline with which they are travelling.',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+        imagen: require('@/assets/curso/t1-s1-2.png'),
       },
       {
         titulo: 'CHECKED BAGGAGE',
         texto:
           'Is luggage delivered to an airline during check-in to be stored in the hold of an aircraft.',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+        imagen: require('@/assets/curso/t1-s1-3.png'),
       },
       {
         titulo: 'HAND LUGGAGE',
         texto:
           '(Also know as Cabine Baggage). Suitcases and bags of a size suitable for carrying on to an aircraft. Normally called Carry-on Baggage in the USA.',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+        imagen: require('@/assets/curso/t1-s1-4.png'),
       },
       {
         titulo: 'OVERWEIGHT BAGGAGE',
         texto:
           'Any bag weighing more than a passenger&apos;s standard luggage allowance.',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+        imagen: require('@/assets/curso/t1-s1-5.png'),
       },
       {
         titulo: 'LITHIUM ION BATTERY',
         texto:
           'A type of rechargeable battery that uses lithium ions as their primary component.',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+        imagen: require('@/assets/curso/t1-s1-6.png'),
       },
       {
         titulo: 'DANGEROUS GOODS',
         texto:
           '(Also known as hazardous material or hazmat). Substances that are corrosive, flammable, combustible, explosive, oxidising or water-reactive or have other hazardous properties.',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+        imagen: require('@/assets/curso/t1-s1-7.png'),
       },
       {
         titulo: 'POWER BANK',
         texto:
           'A portable device that can store electricity for charging phones, cameras, laptop computers, etc.',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+        imagen: require('@/assets/curso/t1-s1-8.png'),
       },
       {
         titulo: 'ELECTRONIC CIGARETTE',
         texto:
           'An electronic device that simulates tobacco smoking. (Also know as E-Cigarette)',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+        imagen: require('@/assets/curso/t1-s1-9.png'),
       },
     ],
     datosSlyder2: [
@@ -837,49 +837,49 @@ export default {
         titulo: 'Passport Check/Control',
         texto:
           '<p><i>(Control de Pasaportes).</i><br><br>The place at an airport, where an official checks your passport to validate your identity.</p>',
-        imagen: require('@/assets/curso/t1-s2.png'),
+        imagen: require('@/assets/curso/t1-s2-2.png'),
       },
       {
         titulo: 'Airport Security Checkpoint',
         texto:
           '<p><i>(Punto de control de seguridad del aeropuerto).</i><br><br>The area where the airport security staff screens and processes passengers, belongings and cabin baggage. X-Ray machines and scanners are used here.</p>',
-        imagen: require('@/assets/curso/t1-s2.png'),
+        imagen: require('@/assets/curso/t1-s2-3.png'),
       },
       {
         titulo: 'Duty Free Shop',
         texto:
           '<p><i>(Tienda Libre de Impuestos).</i><br><br>A shop or store at the airport where goods are sold at a cheaper price because they are not taxed.</p>',
-        imagen: require('@/assets/curso/t1-s2.png'),
+        imagen: require('@/assets/curso/t1-s2-4.png'),
       },
       {
         titulo: 'Departure Lounge',
         texto:
           '<p><i>(Sala de Embarque).</i><br><br>A seating area in an airport where passengers wait immediately prior to boarding. It is located next to the <i>Boarding Gate</i>.</p>',
-        imagen: require('@/assets/curso/t1-s2.png'),
+        imagen: require('@/assets/curso/t1-s2-5.png'),
       },
       {
         titulo: 'Departure Gate // Boarding Gate',
         texto:
           '<p><i>(Puerta de Salida/Partida // Puerta de Embarque o Abordaje).</i><br><br>Any of the numbered gates that allow passengers to go from the terminal to the airplane.</p>',
-        imagen: require('@/assets/curso/t1-s2.png'),
+        imagen: require('@/assets/curso/t1-s2-6.png'),
       },
       {
         titulo: 'Baggage Claim / Reclaim Area',
         texto:
           '<p><i>(Zona de Recolección de Equipaje).</i><br><br>The area in an airport where arriving passengers pick up their checked baggage.</p>',
-        imagen: require('@/assets/curso/t1-s2.png'),
+        imagen: require('@/assets/curso/t1-s2-7.png'),
       },
       {
         titulo: 'Baggage carousel // Luggage Conveyor Belt',
         texto:
           '<p><i>(Banda/cinta de equipaje).</i><br><br>A continuously revolving belt, track or other device on which items are placed for later retrieval.</p>',
-        imagen: require('@/assets/curso/t1-s2.png'),
+        imagen: require('@/assets/curso/t1-s2-8.png'),
       },
       {
         titulo: 'Control Tower',
         texto:
           '<p><i>(Torre de Control).</i><br><br>A tower at an airport from which air traffic is controlled.</p>',
-        imagen: require('@/assets/curso/t1-s2.png'),
+        imagen: require('@/assets/curso/t1-s2-9.png'),
       },
     ],
     datosSlyder3: [
