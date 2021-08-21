@@ -814,8 +814,67 @@
     h3.titulo-tercero A. Some Special Services // <i>Algunos Servicios Especiales</i>
     p.mb-5  Let´s explore together some of the main special services requested by passengers. // <i>Explorar algunos de los principales servicios especiales solicitados por los pasajeros.</i>
 
-    //-- Aqui vienen los tabs
-
+    TabsA.color-acento-botones.mb-5
+      .tarjeta.color-secundario.p-4(titulo="1. Excess baggage")
+        .row
+          .col-lg-2
+            figure
+              img.nW(src='@/assets/curso/ic1.svg', alt='icono decorativa')
+          .col-lg-10
+            .h4 Excess baggage
+            p.mb-4  When the baggage weighs more than what is allowed.
+            .h4 Exceso de equipaje
+            p.mb-4  Cuando el equipaje pesa más de lo permitido en la franquicia.
+      .tarjeta.color-secundario.p-4(titulo="2. Oversized baggage")
+        .row
+          .col-lg-2
+            figure
+              img.nW(src='@/assets/curso/ic2.svg', alt='icono decorativa')
+          .col-lg-10
+            .h4 Oversized baggage
+            p.mb-4  When the measurements or dimensions of the baggage are beyond what is allowed.
+            .h4 Sobredimensión de equipaje
+            p.mb-4  Cuando las medidas o dimensiones del equipaje están por fuera de lo permitido en la franquicia.
+      .tarjeta.color-secundario.p-4(titulo="3. Extra pieces")
+        .row
+          .col-lg-2
+            figure
+              img.nW(src='@/assets/curso/ic3.svg', alt='icono decorativa')
+          .col-lg-10
+            .h4 Extra pieces
+            p.mb-4  When the passenger carries more pieces of luggage than he/she is allowed.
+            .h4 Piezas extra
+            p.mb-4  Cuando el pasajero lleva más piezas de equipaje de las que tiene permitida en la franquicia.
+      .tarjeta.color-secundario.p-4(titulo="4. Pets")
+        .row
+          .col-lg-2
+            figure
+              img.nW(src='@/assets/curso/ic4.svg', alt='icono decorativa')
+          .col-lg-10
+            .h4 Pets
+            p.mb-4  When the traveler requires to travel with his pet, either in the cabin or in the hold; It depends on the policies of each airline.
+            .h4 Mascotas
+            p.mb-4  Cuando el viajero requiere viajar con su mascota, ya sea en cabina o en bodega, depende de las políticas de cada compañía aérea.
+      .tarjeta.color-secundario.p-4(titulo="5. Unaccompanied minors")
+        .row
+          .col-lg-2
+            figure
+              img.nW(src='@/assets/curso/ic5.svg', alt='icono decorativa')
+          .col-lg-10
+            .h4 Unaccompanied minors
+            p.mb-4  When minors travel unaccompanied and require an escort service throughout the travel process.
+            .h4 Menores sin acompañante
+            p.mb-4  Cuando menores de edad viajan sin acompañante y requiere un servicio de acompañamiento en todo el proceso de viaje.
+      .tarjeta.color-secundario.p-4(titulo="6. Sports equipment")
+        .row
+          .col-lg-2
+            figure
+              img.nW(src='@/assets/curso/ic6.svg', alt='icono decorativa')
+          .col-lg-10
+            .h4 Sports equipment
+            p.mb-4  When the traveler wishes to carry special equipment for a particular sport and this is beyond their permitted luggage.
+            .h4 Equipaje deportivo
+            p.mb-4  Cuando el viajero desea llevar equipos especiales para algún deporte en particular y este está por fuera de su equipaje permitido.
 
     h3.titulo-tercero B. EMD (Electronic Miscellaneous Document) issued for the first extra piece of luggage // <i>[Documento Electrónico Misceláneo emitido para la primera pieza de equipaje adicional.</i>
     .row.justify-content-center.mb-5
@@ -824,7 +883,7 @@
           ImagenInfografica.color-secundario.mb-5
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/info-8.png', alt='Ejemplo EMD')
+                img(src='@/assets/curso/ix1.jpg', alt='Ejemplo EMD')
 
             .tarjeta.color-secundario.p-3(x="1%" y="3%")
               p EMD 00128000010 // Número del EMD
