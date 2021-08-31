@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Procedimiento para la aceptación del pasajero en lengua inglesa',
     descripcionCurso:
-      'El inglés aeronáutico es especializado, es en ingles por ser la lengua estándar establecida por la OACI; cuyos códigos, terminologías y vocabularios envuelven situaciones particulares, esto último indica que la enseñanza de este tipo de inglés está enfocado a una población específica, es una herramienta básica para desenvolverse mejor y para poder ofrecer una atención al cliente completa y competitiva.',
+      'El inglés aeronáutico es especializado, es en inglés por ser la lengua estándar establecida por la OACI; cuyos códigos, terminologías y vocabularios envuelven situaciones particulares, esto último indica que la enseñanza de este tipo de inglés está enfocado a una población específica, es una herramienta básica para desenvolverse mejor y para poder ofrecer una atención al cliente completa y competitiva.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
@@ -17,42 +17,41 @@ export default {
       {
         nombreRuta: 'introduccion',
         icono: 'fas fa-info',
-        titulo: 'Introducción',
+        titulo: 'Introduction / Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Management process in counter // <i>Proceso de manejo en counter</i>',
+        titulo: 'Management process in counter / Proceso de manejo en counter',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo:
-              'Passenger security interview // <i>Entrevista de seguridad del pasajero</i>',
+              'Passenger security interview / Entrevista de seguridad del pasajero',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Airport information // <i>Información del aeropuerto</i>',
+            titulo: 'Airport information / Información del aeropuerto',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo:
-              'Validation of information in travel documents // <i>Validación de la información de los documentos del viaje</i>',
+              'Validation of information in travel documents / Validación de la información de los documentos del viaje',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
             titulo:
-              'Offer and charging of special services // <i>Oferta y cobro de servicios especiales</i>',
+              'Offer and charging of special services / Oferta y cobro de servicios especiales',
             hash: 't_1_4',
           },
         ],
@@ -61,22 +60,21 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          'Passenger boarding process // <i>Proceso de embarque del pasajero</i>',
+        titulo: 'Passenger boarding process / Proceso de embarque del pasajero',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
             titulo:
-              'Making of boarding announcements at the boarding gate área // <i>Manejo de anuncios en sala de abordaje</i>',
+              'Making of boarding announcements at the boarding gate área / Manejo de anuncios en sala de abordaje',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
             titulo:
-              'Completion of reports and forms for the boarding process // <i>Diligenciamiento de informes y formatos para el proceso de abordaje</i>',
+              'Completion of reports and forms for the boarding process / Diligenciamiento de informes y formatos para el proceso de abordaje',
             hash: 't_2_2',
           },
         ],
@@ -180,32 +178,32 @@ export default {
   complementario: [
     {
       texto:
-        'Management process in counter // <i>[Proceso de manejo en counter]</i>: Pearson. (s.f.). <i>Inglés para Turismo Internacional</i>.',
+        'Management process in counter / <i>[Proceso de manejo en counter]</i>: Pearson. (s.f.). <i>Inglés para Turismo Internacional</i>.',
       tipo: 'Página web',
       link:
         'https://www.pearson.com/english/catalogue/business-english/english-international-tourism.html',
     },
     {
       texto:
-        'Management process in counter // <i>[Proceso de manejo en counter]</i>: Amadeus Get On Board. (2012) Amadeus Altea Customer Management Solution - Parts 1. [video]. Youtube.',
+        'Management process in counter / <i>[Proceso de manejo en counter]</i>: Amadeus Get On Board. (2012) Amadeus Altea Customer Management Solution - Parts 1. [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Sap7uNPgNdk',
     },
     {
       texto:
-        'Management process in counter // <i>[Proceso de manejo en counter]</i>: Amadeus Get On Board. (2012) Amadeus Altea Customer Management Solution - Parts 2. [video]. Youtube.',
+        'Management process in counter / <i>[Proceso de manejo en counter]</i>: Amadeus Get On Board. (2012) Amadeus Altea Customer Management Solution - Parts 2. [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=J_-F1tmDCxs&t=2s',
     },
     {
       texto:
-        'Management process in counter // <i>[Proceso de manejo en counter]</i>: Amadeus Get On Board. (2012) <i>Amadeus Altea Customer Management Solution - Parts 3.</i> [video]. Youtube.',
+        'Management process in counter / <i>[Proceso de manejo en counter]</i>: Amadeus Get On Board. (2012) <i>Amadeus Altea Customer Management Solution - Parts 3.</i> [video]. Youtube.',
       tipo: 'Página web',
       link: 'https://www.youtube.com/watch?v=i1nh9lEFaLY',
     },
     {
       texto:
-        'Management process in counter // <i>[Proceso de manejo en counter]</i>: Amadeus IT Group. (2015). <i>Altéa Compensation Management.</i> [video]. Youtube.',
+        'Management process in counter / <i>[Proceso de manejo en counter]</i>: Amadeus IT Group. (2015). <i>Altéa Compensation Management.</i> [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=XPjAy-9i1Kk',
     },

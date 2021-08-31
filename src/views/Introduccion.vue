@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span
           i.fas.fa-info
-      h1 Introducción
+      h1 Introduction / Introducción
     
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -18,8 +18,8 @@
       p.mb-4  The check-in or passenger registration process at the airport and the passenger boarding process are of great importance for the flight close-out. Most airlines have implemented the use of technology to make these processes more effecient. When the check-in, at the start of the flight, or in a connecting flight, is performed in a timely and effective manner, time and resources are minimized and the generation of non-conformities from users is avoided.
       p Good service and the efficient execution of technical procedures that facilitate the trip is key to the satisfaction of a traveler.
     
-    p.mb-4.text-it  El proceso de check-in o de registro de pasajeros en aeropuerto y el proceso de embarque de pasajeros son de gran importancia para el cierre de un vuelo. La mayoría de las aerolíneas ha implementado el uso de la tecnología para agilizar dichos procesos. Cuando el registro en el inicio del vuelo o en conexión es ejecutado de manera oportuna y efectiva, se minimizan tiempos y recursos y se evita la generación de inconformidades por parte de los usuarios.
-    p.text-it El buen servicio y la eficiente ejecución de procedimientos técnicos que faciliten el viaje es clave para la satisfacción de un viajero.
+    p.mb-4 El proceso de check-in o de registro de pasajeros en aeropuerto y el proceso de embarque de pasajeros son de gran importancia para el cierre de un vuelo. La mayoría de las aerolíneas ha implementado el uso de la tecnología para agilizar dichos procesos. Cuando el registro en el inicio del vuelo o en conexión es ejecutado de manera oportuna y efectiva, se minimizan tiempos y recursos y se evita la generación de inconformidades por parte de los usuarios.
+    p  El buen servicio y la eficiente ejecución de procedimientos técnicos que faciliten el viaje es clave para la satisfacción de un viajero.
 
 
 
