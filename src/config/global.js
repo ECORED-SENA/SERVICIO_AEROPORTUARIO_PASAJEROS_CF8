@@ -177,33 +177,32 @@ export default {
   ],
   complementario: [
     {
-      texto:
-        'Management process in counter / <i>[Proceso de manejo en counter]</i>: Pearson. (s.f.). <i>Inglés para Turismo Internacional</i>.',
+      texto: 'Pearson. (s.f.). <i>Inglés para Turismo Internacional</i>.',
       tipo: 'Página web',
       link:
         'https://www.pearson.com/english/catalogue/business-english/english-international-tourism.html',
     },
     {
       texto:
-        'Management process in counter / <i>[Proceso de manejo en counter]</i>: Amadeus Get On Board. (2012) Amadeus Altea Customer Management Solution - Parts 1. [video]. Youtube.',
+        'Amadeus Get On Board. (2012) Amadeus Altea Customer Management Solution - Parts 1. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Sap7uNPgNdk',
     },
     {
       texto:
-        'Management process in counter / <i>[Proceso de manejo en counter]</i>: Amadeus Get On Board. (2012) Amadeus Altea Customer Management Solution - Parts 2. [video]. Youtube.',
+        'Amadeus Get On Board. (2012) Amadeus Altea Customer Management Solution - Parts 2. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=J_-F1tmDCxs&t=2s',
     },
     {
       texto:
-        'Management process in counter / <i>[Proceso de manejo en counter]</i>: Amadeus Get On Board. (2012) <i>Amadeus Altea Customer Management Solution - Parts 3.</i> [video]. Youtube.',
+        'Amadeus Get On Board. (2012) <i>Amadeus Altea Customer Management Solution - Parts 3.</i> Youtube.',
       tipo: 'Página web',
       link: 'https://www.youtube.com/watch?v=i1nh9lEFaLY',
     },
     {
       texto:
-        'Management process in counter / <i>[Proceso de manejo en counter]</i>: Amadeus IT Group. (2015). <i>Altéa Compensation Management.</i> [video]. Youtube.',
+        'Amadeus IT Group. (2015). <i>Altéa Compensation Management.</i> Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=XPjAy-9i1Kk',
     },
