@@ -67,7 +67,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '2.1',
             titulo:
-              'Making of boarding announcements at the boarding gate área / Manejo de anuncios en sala de abordaje',
+              'Making of boarding announcements at the boarding gate area / Manejo de anuncios en sala de abordaje',
             hash: 't_2_1',
           },
           {

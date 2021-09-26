@@ -52,31 +52,31 @@
               th  Inglés
               th  Español
             tr
-              td 
+              td
                 span.text-bold  Are you checking any bags?
                 span.text-normal Yes, just one.
-              td
+              td.b-left 
                 span.text-bold  ¿Va a registrar alguna maleta?
                 span.text-normal Sí, solamente una.              
             tr
               td 
                 span.text-bold  Did you pack your baggage yourself?
                 span.text-normal Yes, I packed it myself.
-              td
+              td.b-left 
                 span.text-bold  ¿Usted hizo su equipaje solo?
                 span.text-normal Sí, yo mismo empaqué.      
             tr
               td
                 span.text-bold  Are you sure nobody could have interfered with it since it was packed?
                 span.text-normal Yes, I packed it myself and it has been with me all the time. 
-              td 
+              td.b-left  
                 span.text-bold  ¿Estás seguro de que nadie metió mano a tu equipaje desde que empacaste?
                 span.text-normal Sí, yo mismo empaqué y el equipaje ha estado conmigo todo el tiempo.
-            tr
+            tr.b-bottom
               td
                 span.text-bold  Are you carrying anything for anyone else?
                 span.text-normal No. 
-              td 
+              td.b-left 
                 span.text-bold  ¿Lleva algo que le pertenezca a alguna otra persona?
                 span.text-normal No.
 
@@ -89,28 +89,28 @@
               td 
                 span.text-bold  Who packed your bag?
                 span.text-normal Me and my wife did.
-              td
+              td.b-left
                 span.text-bold  ¿Quién empacó su maleta?
                 span.text-normal Mi esposa y yo lo hicimos.            
             tr
               td 
                 span.text-bold  When did you pack it?
                 span.text-normal Last night.
-              td
+              td.b-left
                 span.text-bold  ¿Cuándo la empacaron?
                 span.text-normal Anoche.     
             tr
               td
                 span.text-bold  Has it been with you since you packed it?
                 span.text-normal Yes, it has been with us all the time.
-              td 
+              td.b-left 
                 span.text-bold  ¿La han tenido con ustedes desde que la empacaron?
                 span.text-normal Sí, ha estado con nosotros todo el tiempo.
-            tr
+            tr.b-bottom
               td
                 span.text-bold  Are you traveling with any liquids?
                 span.text-normal No. I know I can´t take any liquids on the plane. 
-              td 
+              td.b-left 
                 span.text-bold  ¿Lleva con usted algunos líquidos?
                 span.text-normal No. Yo sé que no puedo llevar líquidos en el avión.               
 
@@ -123,28 +123,28 @@
               td 
                 span.text-bold  Is there anything fragile in your bags?
                 span.text-normal No.
-              td
+              td.b-left
                 span.text-bold  ¿Hay alguna cosa frágil en su maleta?
                 span.text-normal No.           
             tr
               td 
                 span.text-bold  Are there any dangerous goods in your luggage (checked baggage)?
                 span.text-normal No, none.
-              td
+              td.b-left
                 span.text-bold  ¿Hay mercancías peligrosas en su equipaje (equipaje facturado)?
                 span.text-normal No, ninguno.    
             tr
               td
                 span.text-bold  Are you carrying recently repaired electronic equipment?
                 span.text-normal No, none.
-              td 
+              td.b-left 
                 span.text-bold  ¿Lleva equipos electrónicos recientemente reparados?
                 span.text-normal No, ninguno.
-            tr
+            tr.b-bottom
               td
                 span.text-bold  Did anybody ask you to carry anything for them?
                 span.text-normal No, nobody. 
-              td 
+              td.b-left 
                 span.text-bold  ¿Alguien te pidió que le llevaras algo en tu equipaje?
                 span.text-normal No, nadie.              
     
@@ -159,28 +159,28 @@
               td 
                 span.text-bold  Is all this luggage yours? 
                 span.text-normal Yes, it is all mine.
-              td
+              td.b-left
                 span.text-bold  ¿Es suyo todo este equipaje?
                 span.text-normal Sí, todo es mío.      
             tr
               td 
                 span.text-bold  Did you leave your luggage unattended at any time? 
                 span.text-normal No, it has been with me all the time.
-              td
+              td.b-left
                 span.text-bold  ¿Dejaste tu equipaje solo en algún momento?
                 span.text-normal No, ha estado conmigo todo el tiempo.   
             tr
               td
                 span.text-bold  Do you have any spare batteries, power banks or e-cigarettes in your check-in baggage? 
                 span.text-normal No, I don´t.
-              td 
+              td.b-left 
                 span.text-bold  ¿Tiene baterías de repuesto, cargadores portátiles o cigarrillos electrónicos en su equipaje facturado? 
                 span.text-normal No, no tengo.
-            tr
+            tr.b-bottom
               td
                 span.text-bold  Excuse me, sir. Could you please come behind the counter and open your bag? 
                 span.text-normal Sure. 
-              td 
+              td.b-left 
                 span.text-bold  Discúlpeme señor. ¿Podría pasar detrás del mostrador y abrir su maleta?
                 span.text-normal Seguro.        
 
@@ -291,8 +291,8 @@
                 img.nW(src='@/assets/curso/t1-i6.svg', alt='imagen decorativa')
             .col-lg-9
               .p-3
-                p <b>Note:</b> some personal Items you can bring into the cabin, free of cost, include: / 
-                p <b>Nota:</b> algunos artículos personales que puede traer a la cabina, sin costo, incluyen:
+                p.text-bold Note: some personal Items you can bring into the cabin, free of cost, include: / 
+                p Nota: algunos artículos personales que puede traer a la cabina, sin costo, incluyen:
                 ul.lista-ul.compress
                   li 
                     i.fas.fa-check
@@ -555,38 +555,38 @@
             tr
               td 
                 .lista-ol--cuadro__vineta 1
-                p.text-bold Immigration Area for International Flights: It is where the migratory flow is controlled, that is, the entries and exits of nationals and foreigners to our country.
+                p <b>Immigration Area for International Flights:</b> It is where the migratory flow is controlled, that is, the entries and exits of nationals and foreigners to our country.
               td
                 .lista-ol--cuadro__vineta 1
-                p.text-bold.text-it Área de Migración para vuelos Internacionales: es la entidad que controla el flujo migratorio, es decir, las entradas y salidas de nacionales y extranjeros a nuestro país.            
+                p.text-it <b>Área de Migración para vuelos Internacionales:</b> es la entidad que controla el flujo migratorio, es decir, las entradas y salidas de nacionales y extranjeros a nuestro país.            
             tr
               td 
                 .lista-ol--cuadro__vineta 2
-                p.text-bold Airport Health Services: it is where emergency medical assistance within the Air Terminal facilities is provided to passengers, airport staff and users in general.
+                p <b>Airport Health Services:</b> it is where emergency medical assistance within the Air Terminal facilities is provided to passengers, airport staff and users in general.
               td
                 .lista-ol--cuadro__vineta 2
-                p.text-bold.text-it Sanidad Aeroportuaria: la entidad presta asistencia médica de urgencia dentro de las instalaciones del Terminal Aéreo a pasajeros, funcionarios del aeropuerto y a usuarios en general.            
+                p.text-it <b>Sanidad Aeroportuaria:</b> la entidad presta asistencia médica de urgencia dentro de las instalaciones del Terminal Aéreo a pasajeros, funcionarios del aeropuerto y a usuarios en general.            
             tr
               td 
                 .lista-ol--cuadro__vineta 3
-                p.text-bold Security checkpoints to Access the Boarding Gates: Airports emphasize their security processes, that is why the checkpoints have people and luggage scanners in order to avoid any situation that threatens air security.
+                p <b>Security checkpoints to Access the Boarding Gates:</b> Airports emphasize their security processes, that is why the checkpoints have people and luggage scanners in order to avoid any situation that threatens air security.
               td
                 .lista-ol--cuadro__vineta 3
-                p.text-bold.text-it  Filtros de seguridad para acceso a las salas de Abordaje: los aeropuertos se enfatizan en sus procesos de seguridad, es por eso que los filtros cuentan con escáneres de personas y de equipaje con el fin de evitar cualquier situación que atente contra la seguridad aérea.          
+                p.text-it  <b>Filtros de seguridad para acceso a las salas de Abordaje:</b> los aeropuertos se enfatizan en sus procesos de seguridad, es por eso que los filtros cuentan con escáneres de personas y de equipaje con el fin de evitar cualquier situación que atente contra la seguridad aérea.          
             tr
               td 
                 .lista-ol--cuadro__vineta 4
-                p.text-bold Departure lounge: These are the appropriate areas for travelers to be comfortable while the airline staff prepares the boarding of the plane.
+                p <b>Departure lounge:</b> These are the appropriate areas for travelers to be comfortable while the airline staff prepares the boarding of the plane.
               td
                 .lista-ol--cuadro__vineta 4
-                p.text-bold.text-it Salas de embarque: son los espacios adecuados para que los viajeros estén cómodos mientras el personal de la aerolínea prepara el abordaje del avión.       
+                p.text-it <b>Salas de embarque:</b> son los espacios adecuados para que los viajeros estén cómodos mientras el personal de la aerolínea prepara el abordaje del avión.       
             tr
               td 
                 .lista-ol--cuadro__vineta 5
-                p.text-bold Luggage conveyor belt: These are the mechanisms available at the end of the travel process where travelers can collect their luggage after finishing their flight.
+                p <b>Luggage conveyor belt:</b> These are the mechanisms available at the end of the travel process where travelers can collect their luggage after finishing their flight.
               td
                 .lista-ol--cuadro__vineta 5
-                p.text-bold.text-it  Bandas de equipajes: son los mecanismos disponibles al final del proceso de viaje en donde los viajeros pueden recoger su equipaje luego de finalizar su vuelo.         
+                p.text-it  <b>Bandas de equipajes:</b> son los mecanismos disponibles al final del proceso de viaje en donde los viajeros pueden recoger su equipaje luego de finalizar su vuelo.         
 
     h3.titulo-tercero B. Some other airport terminal facilities  / <i>Algunas otras instalaciones en el aeropuerto</i>
     p.mb-5.text-it  Se observan a continuación algunas de estas instalaciones que se mencionan:
@@ -624,7 +624,7 @@
     .row.justify-content-center.mb-5
       .col-lg-3
         figure
-          img.nW(src='@/assets/curso/t1-i9.svg', alt='imagen decorativa')        
+          img.nW(src='@/assets/curso/t8-m1.svg', alt='imagen decorativa')        
       .col-lg-9
         .cajon.color-secundario.p-5.mb-5
           .bloque-texto-b.color-secundario.p-4
@@ -632,7 +632,7 @@
               i.fas.fa-quote-left
               p.mb-0  An EMD (Electronic Miscellaneous Document) is the standard technology established by the industry which, through the creation of a virtual document, automates and simplifies to the maximum the communication of information related to the acquisition and payment of ancillary services of the airlines, whether those related to the flight (meals on board, choice of seat, preferred boarding, etc.) or supplied by third parties (hotel, car rental, etc.).<br>
               .bloque-texto-d__autor
-                p.text-bold According to Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 6).
+                p According to Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 6).
               i.fas.fa-quote-right
  
         .bloque-texto-b.color-secundario.p-4
@@ -658,20 +658,20 @@
               i.fas.fa-quote-left
               p.mb-0.text-bold  An Associated EMD (EMD-A) is issued for services associated with a ticket (SSR elements), so both documents are connected. For example: special meals, seat reservations, extra luggage, unaccompanied minor, etc.<br>
               .bloque-texto-d__autor
-                p.text-bold Según Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 7).
+                p According to Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 7).
               i.fas.fa-quote-right
 
         .bloque-texto-b.color-secundario.p-4.mb-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            p.mb-0.text-it  Un Standalone EMD (EMD-S) = (EMD SEPARADO) se emite para servicios no relacionados con el vuelo o para otros cargos (elementos SVC), es decir, es independiente de un tiquete. Por ejemplo: acceso a Sala VIP, parqueo en el aeropuerto, etc.<br>
+            p.mb-0.text-it.text-bold  Un Standalone EMD (EMD-S) = (EMD SEPARADO) se emite para servicios no relacionados con el vuelo o para otros cargos (elementos SVC), es decir, es independiente de un tiquete. Por ejemplo: acceso a Sala VIP, parqueo en el aeropuerto, etc.<br>
             i.fas.fa-quote-right
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            p.mb-0.text-it  Un Associated EMD (EMD-A) = (EMD ASOCIADO) se emite para servicios asociados a un tiquete (elementos SSR), por lo que ambos documentos van conectados. Por ejemplo: comidas especiales, reservas de asientos, equipaje extra, menor no acompañado, etc.<br>
+            p.mb-0.text-it.text-bold  Un Associated EMD (EMD-A) = (EMD ASOCIADO) se emite para servicios asociados a un tiquete (elementos SSR), por lo que ambos documentos van conectados. Por ejemplo: comidas especiales, reservas de asientos, equipaje extra, menor no acompañado, etc.<br>
             .bloque-texto-d__autor
-              p.text-bold.text-it Según Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 7).
+              p.text-it Según Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 7).
             i.fas.fa-quote-right
 
 
@@ -710,7 +710,7 @@
               td.text-it
                 i.fas.fa-check
                 p Puede consumirse en la emisión o utilizarse en diferentes etapas.
-            tr
+            tr.b-bottom
               td 
                 i.fas.fa-check
                 p Once issued, it has no further interaction with the airline systems (reservation systems and Departure Control System - DCSs -). 
@@ -775,7 +775,7 @@
               td.text-it
                 i.fas.fa-check
                 p El uso final del EMD-A depende del cupón de tiquete electrónico al que está asociado, siempre que no se disocie.
-            tr
+            tr.b-bottom
               td 
                 i.fas.fa-check
                 p The status of the associated EMD value coupons and the e-ticket coupons must remain synchronized.
@@ -837,7 +837,9 @@
         .cajon.color-secundario.p-5.mb-5
           p.mb-0  When traveling, situations may arise that require special and specific handling. For this reason, it is important to recognize some of the most common special services of at the time of passenger check-in.
         p.mb-3  En el momento de un viaje pueden surgir situaciones que ameriten de manejos específicos, por esta razón es importante reconocer algunos de los servicios especiales más comunes de trabajar al momento del registro de pasajeros.
-
+      .col-lg-3
+        figure
+          img.nW(src='@/assets/curso/t8-m2.svg', alt='icono decorativa')
     h3.titulo-tercero A. Some Special Services / <i>Algunos Servicios Especiales</i>
     p.mb-5  Let´s explore together some of the main special services requested by passengers. / <i>Explorar algunos de los principales servicios especiales solicitados por los pasajeros.</i>
 
