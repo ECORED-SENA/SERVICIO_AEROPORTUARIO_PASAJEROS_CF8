@@ -111,11 +111,11 @@ export default {
   referencias: [
     {
       referencia:
-        'Amadeus s.a.s. (2016). <i>Amadeus Altéa Reservation Desktop Web – User Guide. Edition 3.3.</i> Amadeus Learning Services.',
+        'Amadeus S.A.S. (2016). <i>Amadeus Altéa Reservation Desktop Web – User Guide. Edition 3.3.</i> Amadeus Learning Services.',
     },
     {
       referencia:
-        'Amadeus s.a.s. (2016). <i>Amadeus Ancillary Services – Guía de Referencia Rápida.</i> Amadeus Soluciones Tecnológicas SA.',
+        'Amadeus S.A.S. (2016). <i>Amadeus Ancillary Services – Guía de Referencia Rápida.</i> Amadeus Soluciones Tecnológicas S.A.',
     },
     {
       referencia: 'Avianca S.A. (2021). <i>Carry-on baggage.</i>',
@@ -140,39 +140,45 @@ export default {
   glosario: [
     {
       termino: 'Airport special services',
-      significado: 'Servicios Especiales en el Aeropuerto.',
+      significado: '&nbsp; Servicios especiales en el aeropuerto.',
     },
     {
-      termino: 'Associated emd (emd-a)',
-      significado: 'EMD Asociado.',
+      termino: 'Associated EMD (EMD-A)',
+      significado: '&nbsp; EMD asociado.',
     },
     {
       termino: 'Boarding announcements',
-      significado: 'Anuncios de Abordaje/Embarque.',
+      significado: '&nbsp; Anuncios de abordaje / embarque.',
     },
     {
       termino: 'Boarding process',
-      significado: 'Proceso de Abordaje/Embarque.',
+      significado: '&nbsp; Proceso de abordaje / embarque.',
     },
     {
       termino: 'Boarding process forms and reports',
-      significado: 'Formularios e Informes del Proceso de Abordaje/Embarque.',
+      significado:
+        '&nbsp; Formularios e informes del proceso de abordaje / embarque.',
     },
     {
       termino: 'Carry-on baggage',
-      significado: 'Equipaje de mano (también, Hand Luggage o Cabin Baggage).',
+      significado:
+        '&nbsp; Equipaje de mano (también, <i>hand luggage o cabin baggage</i>).',
+    },
+    {
+      termino: 'EMD (Electronic Miscellaneous Document)',
+      significado: '&nbsp; documento electrónico misceláneo',
     },
     {
       termino: 'Passenger security interview',
-      significado: 'Entrevista de Seguridad del Pasajero.',
+      significado: '&nbsp; Entrevista de seguridad del pasajero.',
     },
     {
-      termino: 'Standalone emd (emd-s)',
-      significado: 'EMD Separado.',
+      termino: 'Standalone EMD (EMD-s)',
+      significado: '&nbsp; EMD separado.',
     },
     {
       termino: 'Travel documents',
-      significado: 'Documentos de Viaje.',
+      significado: '&nbsp; Documentos de viaje.',
     },
   ],
   complementario: [
@@ -184,20 +190,20 @@ export default {
     },
     {
       texto:
-        'Amadeus Get On Board. (2012) Amadeus Altea Customer Management Solution - Parts 1. Youtube.',
+        'Amadeus Get On Board. (2012). <i>Amadeus Altea Customer Management Solution - Part 1.</i> Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Sap7uNPgNdk',
     },
     {
       texto:
-        'Amadeus Get On Board. (2012) Amadeus Altea Customer Management Solution - Parts 2. Youtube.',
+        'Amadeus Get On Board. (2012). <i>Amadeus Altea Customer Management Solution - Part 2.</i> Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=J_-F1tmDCxs&t=2s',
     },
     {
       texto:
-        'Amadeus Get On Board. (2012) <i>Amadeus Altea Customer Management Solution - Parts 3.</i> Youtube.',
-      tipo: 'Página web',
+        'Amadeus Get On Board. (2012). <i>Amadeus Altea Customer Management Solution - Part 3.</i> Youtube.',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=i1nh9lEFaLY',
     },
     {
