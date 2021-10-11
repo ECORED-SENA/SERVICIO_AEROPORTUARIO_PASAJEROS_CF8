@@ -142,9 +142,7 @@
               .bloque-texto-d__autor
                 p.text-bold According to DHS Pre-departure Aircraft Operator Compliance Requirements Reference Guide (2007, p. 24).
               i.fas.fa-quote-right
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .p-5
+        .tarjeta.translated.p-5.mb-5
           .bloque-texto-b.color-secundario.p-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
@@ -152,6 +150,8 @@
               .bloque-texto-d__autor
                 p.text-bold Según la DHS Pre-departure Aircraft Operator Compliance Requirements Reference Guide (2007, p. 24).
               i.fas.fa-quote-right
+
+          
 
 
 
