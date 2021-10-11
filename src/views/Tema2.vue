@@ -12,10 +12,10 @@
         figure
           img(src='@/assets/curso/t2-i1.svg', alt='imagen decorativa alusiva a pasajeros haciendo fila para abordar un avion')
     
-    .cajon.color-secundario.p-5.mb-5
+    .cajon.color-secundario.p-5.mb-3
       p The passenger boarding process begins at the check-in counter, when travelers are given all the detailed information on their boarding pass related to the departure lounge. This is the same information that is displayed on the screens inside the airport facilities. The departure lounge is the waiting room closest to the departure gate of your flight. It is there where the airline staff will be assisting the passengers in boarding the plane.
-
-    p.mb-5.text-it  El proceso de embarque de pasajeros inicia cuando en el mostrador de registro se les entrega a los viajeros toda la información detallada en su tarjeta de embarque de la sala de abordaje que es la misma en las pantallas informativas que hay dentro de las instalaciones del aeropuerto. La sala de embarque es la sala de espera más próxima a la puerta de su vuelo, es allí donde el personal de la aerolínea dará el manejo a los pasajeros para poder acceder al avión.
+    .tarjeta.translated.p-5.mb-5
+      p.mb-0.text-it  El proceso de embarque de pasajeros inicia cuando en el mostrador de registro se les entrega a los viajeros toda la información detallada en su tarjeta de embarque de la sala de abordaje que es la misma en las pantallas informativas que hay dentro de las instalaciones del aeropuerto. La sala de embarque es la sala de espera más próxima a la puerta de su vuelo, es allí donde el personal de la aerolínea dará el manejo a los pasajeros para poder acceder al avión.
 
     #t_2_1.titulo-segundo
       h2 2.1 Making of boarding announcements at the boarding gate area / <i>Manejo de anuncios en sala de abordaje</i>
@@ -24,9 +24,10 @@
         figure
           img(src='@/assets/curso/t2-i2.svg', alt='Icono decorativo')
       .col-lg-9
-        .cajon.color-secundario.p-5.mb-5
+        .cajon.color-secundario.p-5.mb-3
           p One of the steps in the boarding process are boarding announcements that provide passengers with information about the flight and its possible changes. It is important to make these announcements periodically to guide travelers.
-        p Uno de los pasos en el proceso de abordaje son los anuncios de abordaje que brindan información a los pasajeros acerca del vuelo y sus posibles novedades. Es importante hacer estos anuncios periódicamente para orientar a los viajeros.
+        .tarjeta.translated.p-5.mb-3
+          p.text-it Uno de los pasos en el proceso de abordaje son los anuncios de abordaje que brindan información a los pasajeros acerca del vuelo y sus posibles novedades. Es importante hacer estos anuncios periódicamente para orientar a los viajeros.
 
     h3.titulo-tercero A. Guidelines for making boarding announcements at the boarding gate area / <i>Parámetros para los anuncios en sala de abordaje</i>
     .row.justify-content-center.mb-5
@@ -123,9 +124,10 @@
 
     .row.justify-content-center.mb-5
       .col-lg-7
-        .cajon.color-secundario.p-5.mb-5
+        .cajon.color-secundario.p-5.mb-3
           p The flight close-out process is of the utmost importance. Detailed information of the flight and about any changes is given here, that is, information about the flight deck crew and cabin crew operating the flight, how many passengers travel in the different cabins (first, business and economy class), infants on the flight, how many adults, the weight of the flight, whether employees of the same airline are on board this flight, the special services requested on the flight, etc.
-        p.text-it El cierre del vuelo al finalizar el abordaje es de suma importancia ya que en este está el detallado de novedades del vuelo, es decir, información acerca de la tripulación de cabina de mando y de cabina de pasajeros que opera el vuelo, cuántos pasajeros viajan en las diferentes cabinas (primera clase, ejecutiva y económica), infantes en el vuelo, cuántos adultos, el peso del vuelo, si en este vuelo están abordados empleados de la misma aerolínea, los servicios especiales solicitados en el vuelo, etc.
+        .tarjeta.translated.p-5.mb-5
+          p.text-it El cierre del vuelo al finalizar el abordaje es de suma importancia ya que en este está el detallado de novedades del vuelo, es decir, información acerca de la tripulación de cabina de mando y de cabina de pasajeros que opera el vuelo, cuántos pasajeros viajan en las diferentes cabinas (primera clase, ejecutiva y económica), infantes en el vuelo, cuántos adultos, el peso del vuelo, si en este vuelo están abordados empleados de la misma aerolínea, los servicios especiales solicitados en el vuelo, etc.
       .col-lg-5
         figure
           img(src='@/assets/curso/t2-i6.png', alt='sillas de sala de espera en un aeropuerto')

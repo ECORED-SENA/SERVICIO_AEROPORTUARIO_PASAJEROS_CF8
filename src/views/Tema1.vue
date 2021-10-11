@@ -7,7 +7,7 @@
         span  1
       h1 Management process in counter / <i>Proceso de manejo en counter</i>
 
-    .row.mb-4
+    .row.mb-2
       .col-lg-6
         .cajon.color-secundario.p-5.mb-5
           p.mb-3  The registration or check-in process is the process by which passengers confirm their trip, arriving at the airport in advance. In Colombia, for national or domestic flights, the traveler has to be at the airport 2 hours in advance and for international flights, 3 hours in advance. Compliance with these times by the passenger guarantees a boarding pass. During check-in, information is obtained with which the flight plan is created according to the weight of both passengers and luggage.
@@ -15,11 +15,12 @@
       .col-lg-6
         figure
           img(src='@/assets/curso/t1-i1.svg', alt='gente en sala de espera')
-    p.mb-5.text-it  El proceso de registro o check-in, es el proceso mediante el cual los pasajeros confirman su viaje con la llegada al aeropuerto con anterioridad. En Colombia los tiempos de presentación para vuelos nacionales o domésticos es de 2 horas y para vuelos internacionales es de 3 horas. El cumplimiento de estos tiempos por parte del pasajero garantiza una tarjeta de embarque. Durante el check-in se obtiene información con la que se crea el plan de vuelo según el peso, tanto de pasajero como de equipaje.<br><br> En la mayoría de los casos, la ubicación dentro del avión se determina durante este proceso. Además, es allí donde la persona verificará la documentación de viaje y recibirá la información sobre el equipaje que está permitido dentro de la franquicia del equipaje.
+    .tarjeta.translated.p-3.mb-5
+      p.mb-5.text-it  El proceso de registro o check-in, es el proceso mediante el cual los pasajeros confirman su viaje con la llegada al aeropuerto con anterioridad. En Colombia los tiempos de presentación para vuelos nacionales o domésticos es de 2 horas y para vuelos internacionales es de 3 horas. El cumplimiento de estos tiempos por parte del pasajero garantiza una tarjeta de embarque. Durante el check-in se obtiene información con la que se crea el plan de vuelo según el peso, tanto de pasajero como de equipaje.<br><br> En la mayoría de los casos, la ubicación dentro del avión se determina durante este proceso. Además, es allí donde la persona verificará la documentación de viaje y recibirá la información sobre el equipaje que está permitido dentro de la franquicia del equipaje.
 
     #t_1_1.titulo-segundo
       h2 1.1. Passenger security interview / <i>Entrevista de seguridad del pasajero</i>
-    .row.mb-4
+    .row.mb-2
       .col-lg-7
         .cajon.color-secundario.p-5.mb-5
           p.mb-3  This is a very important step that takes place at the beginning of the travel process. It corresponds to one of the security processes which is performed to prevent incidents or accidents. The security procedure for a flight does not apply only to passengers; it also applies to crews.
@@ -29,17 +30,19 @@
       .col-lg-5
         figure
           img(src='@/assets/curso/t1-i2.svg', alt='mujer registrandose en sala de espera')
-    p.mb-3  Este es un paso muy importante que tiene lugar al inicio del proceso de viaje, corresponde a uno de los procesos de seguridad con el que se busca la prevención de incidentes o accidentes. El procedimiento de seguridad para un vuelo no aplica solo para los pasajeros, también aplica para las tripulaciones.
-    p.mb-3  Las entrevistas de seguridad normalmente aplican para vuelos a los Estados Unidos por directriz de la TSA (Transportation Security Administration), esta entidad norteamericana es la encargada de gestionar todo lo relacionado con la seguridad en los diferentes sistemas de transporte, en especial el aéreo.
-    p.mb-5  Las preguntas formuladas durante esta entrevista hacen referencia a las mercancías peligrosas, sustancias corrosivas, explosivos, baterías de litio, etc. Tienen el fin de evitar que el equipaje contenga mercancía no apta para vuelo comercial.
+    .tarjeta.translated.p-3.mb-5      
+      p.mb-3.text-it  Este es un paso muy importante que tiene lugar al inicio del proceso de viaje, corresponde a uno de los procesos de seguridad con el que se busca la prevención de incidentes o accidentes. El procedimiento de seguridad para un vuelo no aplica solo para los pasajeros, también aplica para las tripulaciones.
+      p.mb-3.text-it  Las entrevistas de seguridad normalmente aplican para vuelos a los Estados Unidos por directriz de la TSA (Transportation Security Administration), esta entidad norteamericana es la encargada de gestionar todo lo relacionado con la seguridad en los diferentes sistemas de transporte, en especial el aéreo.
+      p.mb-5.text-it  Las preguntas formuladas durante esta entrevista hacen referencia a las mercancías peligrosas, sustancias corrosivas, explosivos, baterías de litio, etc. Tienen el fin de evitar que el equipaje contenga mercancía no apta para vuelo comercial.
 
     h3.titulo-tercero A. Questions passengers may be asked at check-in / <i>Preguntas que los pasajeros pueden tener que responder durante el registro en el aeropuerto.</i>
 
-    .row.mb-4
+    .row.mb-5
       .col-lg-12
         .cajon.color-secundario.p-5
           p.mb-0  Read and review the security questions a traveler may have to answer at check-in.
-    p.mb-5.text-it  Leer y revisar atentamente las preguntas de seguridad que un viajero puede tener que responder durante su registro en el aeropuerto.
+        .tarjeta.translated.p-5.mb-3
+          p.text-it  Leer y revisar atentamente las preguntas de seguridad que un viajero puede tener que responder durante su registro en el aeropuerto.
 
     .row.mb-5
       .col-lg-2
@@ -209,7 +212,8 @@
       .col-lg-10
         .cajon.color-secundario.p-5.mb-5
           p.mb-3.text-bold  Here is a chart for you to explore more vocabulary related to the check-in process. You can use a dictionary to look up the words you do not know.
-        p.mb-5  Aquí hay una tabla para explorar más vocabulario y conceptos relacionados con el proceso de registro del pasajero en el aeropuerto. Se puede apoyar en un diccionario para consultar las palabras desconocidas, a continuación se pueden ver:
+        .tarjeta.translated.p-5.mb-3
+          p.mb-5  Aquí hay una tabla para explorar más vocabulario y conceptos relacionados con el proceso de registro del pasajero en el aeropuerto. Se puede apoyar en un diccionario para consultar las palabras desconocidas, a continuación se pueden ver:
     //- Slide 1  
     SlyderB.mb-5(:datos="datosSlyder")
 
@@ -441,9 +445,10 @@
     .row.justify-content-center.mb-5
       .col-lg-8 
         p.mb-5.text-it  Se selecciona(n) la(s) aplicación(es) que se desea(n) cerrar y se presiona la tecla <b>ENTER</b> o se hace clic en el botón <b>OK</b> para proceder.
-        .cajon.color-secundario.px-5.mb-5.py-4
+        .cajon.color-secundario.px-5.mb-4.py-4
           p.mb-0.text-bold Note: a maximum of 10 application tabs can be opened at the same time. These are arranged from 0 to 9 by the system.
-        p.text-it Nota: pueden ser abiertas un máximo de diez (10) fichas de aplicaciones al mismo tiempo. Estas son ordenadas por el sistema del 0 al 9.
+        .tarjeta.translated.p-4.mb-5
+          p.text-it Nota: pueden ser abiertas un máximo de diez (10) fichas de aplicaciones al mismo tiempo. Estas son ordenadas por el sistema del 0 al 9.
 
     h4.titulo-cuarto PART 3 – LOGOFF AND HELP MENU / 
       span.text-normal.text-it  PARTE 3 – MENÚ PARA SALIR DEL SISTEMA Y MENÚ DE AYUDA    
@@ -458,7 +463,7 @@
               p Logoff / <i>Finalizar Sesión (Cerrar el Sistema)</i>     
             .tarjeta.color-secundario.p-3.text-center(x="5%" y="51%")
               p Exit / <i>Salir</i>               
-    
+
         p.mb-3.text-it  Nota: al escoger la opción Logoff, se cierra el sistema temporalmente, pero la pantalla de Sign in seguirá disponible para digitar su usuario y clave e ingresar nuevamente al sistema. Por el contrario, al escoger la opción Exit, se cerrará completamente el Customer Management.
 
 
@@ -539,8 +544,8 @@
       .col-lg-8
         .cajon.color-secundario.p-5
           p.mb-0  In the travel process, the passenger must go through certain areas in the airport in order to complete the travel cycle without any setback and thus reach their final destination.
-        
-        p.mb-5.p-5.py-4.text-it  En el proceso de viaje, el pasajero debe recorrer ciertas áreas del aeropuerto para poder completar el ciclo de viaje sin ningún contratiempo y así llegar a su destino final.
+        .tarjeta.translated.p-5
+          p.py-4.text-it  En el proceso de viaje, el pasajero debe recorrer ciertas áreas del aeropuerto para poder completar el ciclo de viaje sin ningún contratiempo y así llegar a su destino final.
     
     h3.titulo-tercero A. Different Airport Areas / <i>Diferentes Áreas en el Aeropuerto</i>
     p.mb-5.text-bold  Let´s explore together some of the main areas at an airport. / 
@@ -609,10 +614,10 @@
         figure
           img.nW(src='@/assets/curso/t1-i9.svg', alt='imagen decorativa')        
       .col-lg-8
-        .cajon.color-secundario.p-5.mb-5
+        .cajon.color-secundario.p-5.mb-3
           p.mb-0  It is important for this process to bear in mind that documentation is the first requirement to start the travel process. Knowing what the passenger requires to reach their final destination is key to be able to register him in the system. For this reason, it is necessary to know about immigration documents and travel documents such as passports, visas, transit visas, residence card, vaccination card, boarding pass, luggage tags, EMD.
-
-        p.mb-5 Es importante para este proceso tener en cuenta que la documentación es el primer requisito para empezar el proceso de viaje. Saber lo que el pasajero requiere para llegar a su destino final es de vital importancia para poder hacer su registro en el sistema, por esta razón es necesario conocer acerca de documentos migratorios y documentos de viaje: pasaportes, visas, visas de tránsito, tarjeta de residencia, carnet de vacunas, pasabordo, etiquetas de equipaje y EMD.
+        .tarjeta.translated.p-5  
+          p.mb-4.text-it Es importante para este proceso tener en cuenta que la documentación es el primer requisito para empezar el proceso de viaje. Saber lo que el pasajero requiere para llegar a su destino final es de vital importancia para poder hacer su registro en el sistema, por esta razón es necesario conocer acerca de documentos migratorios y documentos de viaje: pasaportes, visas, visas de tránsito, tarjeta de residencia, carnet de vacunas, pasabordo, etiquetas de equipaje y EMD.
 
     h3.titulo-tercero A. Different types of travel documents / <i>Diferentes clases de documentos de viaje</i>
     p.mb-5.p-4  Let´s explore together the names and definitions of some travel documents. / <i>Explorar los nombres y definiciones de algunos documentos de viaje, como son:</i>
@@ -626,7 +631,7 @@
         figure
           img.nW(src='@/assets/curso/t8-m1.svg', alt='imagen decorativa')        
       .col-lg-9
-        .cajon.color-secundario.p-5.mb-5
+        .cajon.color-secundario.p-5.mb-3
           .bloque-texto-b.color-secundario.p-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
@@ -634,20 +639,20 @@
               .bloque-texto-d__autor
                 p According to Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 6).
               i.fas.fa-quote-right
- 
-        .bloque-texto-b.color-secundario.p-4
-          .bloque-texto-b__texto
-            i.fas.fa-quote-left
-            p.mb-0.text-it  Un EMD (Documento Electrónico Misceláneo) es la tecnología estándar fijada por la industria que mediante la creación de un documento virtual automatiza y simplifica al máximo la comunicación de la información relativa a la adquisición y pago de servicios auxiliares de las aerolíneas, ya sean los vinculados al vuelo (comida a bordo, elección de asiento, embarque preferente, etc.) o suministrados por terceros (hotel, alquiler de coche, etc.).<br>
-            .bloque-texto-d__autor
-              p.text-bold.text-it Según Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 6).
-            i.fas.fa-quote-right
+        .tarjeta.translated.p-5.mb-5
+          .bloque-texto-b.color-secundario.p-4
+            .bloque-texto-b__texto
+              i.fas.fa-quote-left
+              p.mb-0.text-it  Un EMD (Documento Electrónico Misceláneo) es la tecnología estándar fijada por la industria que mediante la creación de un documento virtual automatiza y simplifica al máximo la comunicación de la información relativa a la adquisición y pago de servicios auxiliares de las aerolíneas, ya sean los vinculados al vuelo (comida a bordo, elección de asiento, embarque preferente, etc.) o suministrados por terceros (hotel, alquiler de coche, etc.).<br>
+              .bloque-texto-d__autor
+                p.text-bold.text-it Según Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 6).
+              i.fas.fa-quote-right
 
     h4.titulo-cuarto Standalone EMD (EMD-S) vs. Associated EMD (EMD-A)
     p.mb-5  This two types of EMD differ in their behaviour and usage. Here are the main characteristics: / <i>Estos dos tipos de EMD difieren en su comportamiento y uso. Aquí están las principales características:</i>
     .row.mb-5.justify-content-center
       .col-lg-10
-        .cajon.color-secundario.p-5.mb-5
+        .cajon.color-secundario.p-5.mb-3
           .bloque-texto-b.color-secundario.p-4.mb-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
@@ -660,19 +665,19 @@
               .bloque-texto-d__autor
                 p According to Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 7).
               i.fas.fa-quote-right
-
-        .bloque-texto-b.color-secundario.p-4.mb-4
-          .bloque-texto-b__texto
-            i.fas.fa-quote-left
-            p.mb-0.text-it.text-bold  Un Standalone EMD (EMD-S) = (EMD SEPARADO) se emite para servicios no relacionados con el vuelo o para otros cargos (elementos SVC), es decir, es independiente de un tiquete. Por ejemplo: acceso a Sala VIP, parqueo en el aeropuerto, etc.<br>
-            i.fas.fa-quote-right
-        .bloque-texto-b.color-secundario.p-4
-          .bloque-texto-b__texto
-            i.fas.fa-quote-left
-            p.mb-0.text-it.text-bold  Un Associated EMD (EMD-A) = (EMD ASOCIADO) se emite para servicios asociados a un tiquete (elementos SSR), por lo que ambos documentos van conectados. Por ejemplo: comidas especiales, reservas de asientos, equipaje extra, menor no acompañado, etc.<br>
-            .bloque-texto-d__autor
-              p.text-it Según Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 7).
-            i.fas.fa-quote-right
+        .tarjeta.translated.p-5.mb-5
+          .bloque-texto-b.color-secundario.p-4.mb-4
+            .bloque-texto-b__texto
+              i.fas.fa-quote-left
+              p.mb-0.text-it.text-bold  Un Standalone EMD (EMD-S) = (EMD SEPARADO) se emite para servicios no relacionados con el vuelo o para otros cargos (elementos SVC), es decir, es independiente de un tiquete. Por ejemplo: acceso a Sala VIP, parqueo en el aeropuerto, etc.<br>
+              i.fas.fa-quote-right
+          .bloque-texto-b.color-secundario.p-4
+            .bloque-texto-b__texto
+              i.fas.fa-quote-left
+              p.mb-0.text-it.text-bold  Un Associated EMD (EMD-A) = (EMD ASOCIADO) se emite para servicios asociados a un tiquete (elementos SSR), por lo que ambos documentos van conectados. Por ejemplo: comidas especiales, reservas de asientos, equipaje extra, menor no acompañado, etc.<br>
+              .bloque-texto-d__autor
+                p.text-it Según Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 7).
+              i.fas.fa-quote-right
 
 
     .row.mb-5.justify-content-center
@@ -834,9 +839,10 @@
       h2 1.4  Offer and charging of special services / <i>Oferta y cobro de servicios especiales</i>
     .row.justify-content-end.mb-5
       .col-lg-9
-        .cajon.color-secundario.p-5.mb-5
+        .cajon.color-secundario.p-5.mb-3
           p.mb-0  When traveling, situations may arise that require special and specific handling. For this reason, it is important to recognize some of the most common special services of at the time of passenger check-in.
-        p.mb-3  En el momento de un viaje pueden surgir situaciones que ameriten de manejos específicos, por esta razón es importante reconocer algunos de los servicios especiales más comunes de trabajar al momento del registro de pasajeros.
+        .tarjeta.translated.p-5.mb-3
+          p.mb-0.text-it  En el momento de un viaje pueden surgir situaciones que ameriten de manejos específicos, por esta razón es importante reconocer algunos de los servicios especiales más comunes de trabajar al momento del registro de pasajeros.
       .col-lg-3
         figure
           img.nW(src='@/assets/curso/t8-m2.svg', alt='icono decorativa')
