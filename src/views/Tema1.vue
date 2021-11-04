@@ -444,11 +444,11 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8 
-        p.mb-5.text-it  Se selecciona(n) la(s) aplicación(es) que se desea(n) cerrar y se presiona la tecla <b>ENTER</b> o se hace clic en el botón <b>OK</b> para proceder.
+        p.mb-5 Se selecciona(n) la(s) aplicación(es) que se desea(n) cerrar y se presiona la tecla <b>ENTER</b> o se hace clic en el botón <b>OK</b> para proceder.
         .cajon.color-secundario.px-5.mb-4.py-4
           p.mb-0.text-bold Note: a maximum of 10 application tabs can be opened at the same time. These are arranged from 0 to 9 by the system.
         .tarjeta.translated.p-4.mb-5
-          p.text-it Nota: pueden ser abiertas un máximo de diez (10) fichas de aplicaciones al mismo tiempo. Estas son ordenadas por el sistema del 0 al 9.
+          p Nota: pueden ser abiertas un máximo de diez (10) fichas de aplicaciones al mismo tiempo. Estas son ordenadas por el sistema del 0 al 9.
 
     h4.titulo-cuarto PART 3 – LOGOFF AND HELP MENU / 
       span.text-normal.text-it  PARTE 3 – MENÚ PARA SALIR DEL SISTEMA Y MENÚ DE AYUDA    
@@ -460,11 +460,11 @@
               figure
                 img.shadow-box(src='@/assets/curso/info-5.png', alt='Ejemplo')
             .tarjeta.color-secundario.p-3.text-center(x="5%" y="35%")
-              p Logoff / <i>Finalizar Sesión (Cerrar el Sistema)</i>     
+              p Logoff / Finalizar Sesión (Cerrar el Sistema)    
             .tarjeta.color-secundario.p-3.text-center(x="5%" y="51%")
-              p Exit / <i>Salir</i>               
+              p Exit / Salir              
 
-        p.mb-3.text-it  Nota: al escoger la opción Logoff, se cierra el sistema temporalmente, pero la pantalla de Sign in seguirá disponible para digitar su usuario y clave e ingresar nuevamente al sistema. Por el contrario, al escoger la opción Exit, se cerrará completamente el Customer Management.
+        p.mb-3  Nota: al escoger la opción <i>Logoff</i>, se cierra el sistema temporalmente, pero la pantalla de Sign in seguirá disponible para digitar su usuario y clave e ingresar nuevamente al sistema. Por el contrario, al escoger la opción Exit, se cerrará completamente el Customer Management.
 
 
     //-- contenido imagen help
@@ -527,7 +527,7 @@
             figure
               img.shadow-box(src='@/assets/curso/info-T7.png', alt='Ejemplo EMD')
           .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
-            p.text-it El Reporte de Error ha sido enviado a Amadeus<br>Gracias por su apoyo <br> OK
+            p El Reporte de Error ha sido enviado a Amadeus<br>Gracias por su apoyo <br> OK
   
 
     
@@ -545,11 +545,11 @@
         .cajon.color-secundario.p-5
           p.mb-0  In the travel process, the passenger must go through certain areas in the airport in order to complete the travel cycle without any setback and thus reach their final destination.
         .tarjeta.translated.p-5
-          p.py-4.text-it  En el proceso de viaje, el pasajero debe recorrer ciertas áreas del aeropuerto para poder completar el ciclo de viaje sin ningún contratiempo y así llegar a su destino final.
+          p.py-4  En el proceso de viaje, el pasajero debe recorrer ciertas áreas del aeropuerto para poder completar el ciclo de viaje sin ningún contratiempo y así llegar a su destino final.
     
     h3.titulo-tercero A. Different Airport Areas / <i>Diferentes Áreas en el Aeropuerto</i>
     p.mb-5.text-bold  Let´s explore together some of the main areas at an airport. / 
-      span.text-normal.text-it  Se exploran a continuación algunas de las principales áreas en un aeropuerto.
+      span.text-normal  Se exploran a continuación algunas de las principales áreas en un aeropuerto.
     .row
       .col-lg-3
         figure
@@ -561,45 +561,45 @@
               td 
                 .lista-ol--cuadro__vineta 1
                 p <b>Immigration Area for International Flights:</b> It is where the migratory flow is controlled, that is, the entries and exits of nationals and foreigners to our country.
-              td
+              td.b-left
                 .lista-ol--cuadro__vineta 1
                 p.text-it <b>Área de Migración para vuelos Internacionales:</b> es la entidad que controla el flujo migratorio, es decir, las entradas y salidas de nacionales y extranjeros a nuestro país.            
             tr
               td 
                 .lista-ol--cuadro__vineta 2
                 p <b>Airport Health Services:</b> it is where emergency medical assistance within the Air Terminal facilities is provided to passengers, airport staff and users in general.
-              td
+              td.b-left
                 .lista-ol--cuadro__vineta 2
                 p.text-it <b>Sanidad Aeroportuaria:</b> la entidad presta asistencia médica de urgencia dentro de las instalaciones del Terminal Aéreo a pasajeros, funcionarios del aeropuerto y a usuarios en general.            
             tr
               td 
                 .lista-ol--cuadro__vineta 3
                 p <b>Security checkpoints to Access the Boarding Gates:</b> Airports emphasize their security processes, that is why the checkpoints have people and luggage scanners in order to avoid any situation that threatens air security.
-              td
+              td.b-left
                 .lista-ol--cuadro__vineta 3
                 p.text-it  <b>Filtros de seguridad para acceso a las salas de Abordaje:</b> los aeropuertos se enfatizan en sus procesos de seguridad, es por eso que los filtros cuentan con escáneres de personas y de equipaje con el fin de evitar cualquier situación que atente contra la seguridad aérea.          
             tr
               td 
                 .lista-ol--cuadro__vineta 4
                 p <b>Departure lounge:</b> These are the appropriate areas for travelers to be comfortable while the airline staff prepares the boarding of the plane.
-              td
+              td.b-left
                 .lista-ol--cuadro__vineta 4
                 p.text-it <b>Salas de embarque:</b> son los espacios adecuados para que los viajeros estén cómodos mientras el personal de la aerolínea prepara el abordaje del avión.       
             tr
               td 
                 .lista-ol--cuadro__vineta 5
                 p <b>Luggage conveyor belt:</b> These are the mechanisms available at the end of the travel process where travelers can collect their luggage after finishing their flight.
-              td
+              td.b-left
                 .lista-ol--cuadro__vineta 5
                 p.text-it  <b>Bandas de equipajes:</b> son los mecanismos disponibles al final del proceso de viaje en donde los viajeros pueden recoger su equipaje luego de finalizar su vuelo.         
 
     h3.titulo-tercero B. Some other airport terminal facilities  / <i>Algunas otras instalaciones en el aeropuerto</i>
-    p.mb-5.text-it  Se observan a continuación algunas de estas instalaciones que se mencionan:
+    p.mb-5  Se observan a continuación algunas de estas instalaciones que se mencionan:
     //- Slide 2  
     SlyderB.mb-5(:datos="datosSlyder2")    
 
     h3.titulo-tercero C. Asking for and giving directions at the airport / <i> Pidiendo y dando orientación para encontrar las diferentes áreas en el aeropuerto.</i>
-    p.mb-5  Let´s explore together in the following dialogue some ways of asking for and giving directions about the main areas at an airport. / <i>[Explorar a través del siguiente video con un diálogo sobre algunas formas de pedir y dar orientación sobre las principales áreas de un aeropuerto.]</i>
+    p.mb-5  Let´s explore together in the following dialogue some ways of asking for and giving directions about the main areas at an airport. / [Explorar a través del siguiente video con un diálogo sobre algunas formas de pedir y dar orientación sobre las principales áreas de un aeropuerto.]
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -617,15 +617,15 @@
         .cajon.color-secundario.p-5.mb-3
           p.mb-0  It is important for this process to bear in mind that documentation is the first requirement to start the travel process. Knowing what the passenger requires to reach their final destination is key to be able to register him in the system. For this reason, it is necessary to know about immigration documents and travel documents such as passports, visas, transit visas, residence card, vaccination card, boarding pass, luggage tags, EMD.
         .tarjeta.translated.p-5  
-          p.mb-4.text-it Es importante para este proceso tener en cuenta que la documentación es el primer requisito para empezar el proceso de viaje. Saber lo que el pasajero requiere para llegar a su destino final es de vital importancia para poder hacer su registro en el sistema, por esta razón es necesario conocer acerca de documentos migratorios y documentos de viaje: pasaportes, visas, visas de tránsito, tarjeta de residencia, carnet de vacunas, pasabordo, etiquetas de equipaje y EMD.
+          p.mb-4 Es importante para este proceso tener en cuenta que la documentación es el primer requisito para empezar el proceso de viaje. Saber lo que el pasajero requiere para llegar a su destino final es de vital importancia para poder hacer su registro en el sistema, por esta razón es necesario conocer acerca de documentos migratorios y documentos de viaje: pasaportes, visas, visas de tránsito, tarjeta de residencia, carnet de vacunas, pasabordo, etiquetas de equipaje y EMD.
 
     h3.titulo-tercero A. Different types of travel documents / <i>Diferentes clases de documentos de viaje</i>
-    p.mb-5.p-4  Let´s explore together the names and definitions of some travel documents. / <i>Explorar los nombres y definiciones de algunos documentos de viaje, como son:</i>
+    p.mb-5.p-4  Let´s explore together the names and definitions of some travel documents. / Explorar los nombres y definiciones de algunos documentos de viaje, como son:
     //- Slide 3
     SlyderB.mb-5(:datos="datosSlyder3")    
 
     h3.titulo-tercero B. EMD (Electronic Miscellaneous Document) / <i>Documento Electrónico Misceláneo</i>
-    p.mb-5 Let´s explore some aspects related to EMDs. / <i>Explorar algunos aspectos relacionados con los EMDs.</i>
+    p.mb-5 Let´s explore some aspects related to EMDs. / Explorar algunos aspectos relacionados con los EMDs.
     .row.justify-content-center.mb-5
       .col-lg-3
         figure
@@ -643,13 +643,13 @@
           .bloque-texto-b.color-secundario.p-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              p.mb-0.text-it  Un EMD (Documento Electrónico Misceláneo) es la tecnología estándar fijada por la industria que mediante la creación de un documento virtual automatiza y simplifica al máximo la comunicación de la información relativa a la adquisición y pago de servicios auxiliares de las aerolíneas, ya sean los vinculados al vuelo (comida a bordo, elección de asiento, embarque preferente, etc.) o suministrados por terceros (hotel, alquiler de coche, etc.).<br>
+              p.mb-0  Un EMD (Documento Electrónico Misceláneo) es la tecnología estándar fijada por la industria que mediante la creación de un documento virtual automatiza y simplifica al máximo la comunicación de la información relativa a la adquisición y pago de servicios auxiliares de las aerolíneas, ya sean los vinculados al vuelo (comida a bordo, elección de asiento, embarque preferente, etc.) o suministrados por terceros (hotel, alquiler de coche, etc.).<br>
               .bloque-texto-d__autor
-                p.text-bold.text-it Según Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 6).
+                p.text-bold Según Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 6).
               i.fas.fa-quote-right
 
     h4.titulo-cuarto Standalone EMD (EMD-S) vs. Associated EMD (EMD-A)
-    p.mb-5  This two types of EMD differ in their behaviour and usage. Here are the main characteristics: / <i>Estos dos tipos de EMD difieren en su comportamiento y uso. Aquí están las principales características:</i>
+    p.mb-5  This two types of EMD differ in their behaviour and usage. Here are the main characteristics: / Estos dos tipos de EMD difieren en su comportamiento y uso. Aquí están las principales características:
     .row.mb-5.justify-content-center
       .col-lg-10
         .cajon.color-secundario.p-5.mb-3
@@ -669,14 +669,14 @@
           .bloque-texto-b.color-secundario.p-4.mb-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              p.mb-0.text-it.text-bold  Un Standalone EMD (EMD-S) = (EMD SEPARADO) se emite para servicios no relacionados con el vuelo o para otros cargos (elementos SVC), es decir, es independiente de un tiquete. Por ejemplo: acceso a Sala VIP, parqueo en el aeropuerto, etc.<br>
+              p.mb-0.text-bold  Un Standalone EMD (EMD-S) = (EMD SEPARADO) se emite para servicios no relacionados con el vuelo o para otros cargos (elementos SVC), es decir, es independiente de un tiquete. Por ejemplo: acceso a Sala VIP, parqueo en el aeropuerto, etc.<br>
               i.fas.fa-quote-right
           .bloque-texto-b.color-secundario.p-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              p.mb-0.text-it.text-bold  Un Associated EMD (EMD-A) = (EMD ASOCIADO) se emite para servicios asociados a un tiquete (elementos SSR), por lo que ambos documentos van conectados. Por ejemplo: comidas especiales, reservas de asientos, equipaje extra, menor no acompañado, etc.<br>
+              p.mb-0.text-bold  Un Associated EMD (EMD-A) = (EMD ASOCIADO) se emite para servicios asociados a un tiquete (elementos SSR), por lo que ambos documentos van conectados. Por ejemplo: comidas especiales, reservas de asientos, equipaje extra, menor no acompañado, etc.<br>
               .bloque-texto-d__autor
-                p.text-it Según Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 7).
+                p Según Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 7).
               i.fas.fa-quote-right
 
 
@@ -686,40 +686,40 @@
           table.custom-checkList
             tr.tabla-b__header.text-white
               th.bg-yellow-head  Standalone EMD (EMD-S)
-              th.text-it  EMD separado
+              th EMD separado
             tr
               td 
                 i.fas.fa-check
                 p A standalone EMD is issued for a residual value or the collection of miscellaneous charges that are not lifted with an e-ticket coupon. For example, lounge access, T-shirts, vouchers, taxi transportation, car hire, hotel accommodation, train tickets, rebooking or cancellation fees, and so on. 
-              td.text-it
+              td
                 i.fas.fa-check
                 p Se emite un EMD separado (independiente) por un valor residual o el cobro de cargos varios que no se eliminan con un cupón de tiquete electrónico. Por ejemplo, acceso al salón, camisetas, vouchers, transporte en taxi, alquiler de vehículos, alojamiento en hotel, tiquetes de tren, tarifas de cambio de reserva o cancelación, etc. 
             tr
               td 
                 i.fas.fa-check
                 p The standalone EMD can consist of a single or multiple value coupons. 
-              td.text-it
+              td
                 i.fas.fa-check
                 p El EMD separado (independiente) puede consistir en cupones de valor único o múltiple.
             tr
               td 
                 i.fas.fa-check
                 p It can contain a reference to an e-ticket. 
-              td.text-it
+              td
                 i.fas.fa-check
                 p Puede contener una referencia a un tiquete electrónico.
             tr
               td 
                 i.fas.fa-check
                 p It can be consumed at issuance or used at different stages.
-              td.text-it
+              td
                 i.fas.fa-check
                 p Puede consumirse en la emisión o utilizarse en diferentes etapas.
             tr.b-bottom
               td 
                 i.fas.fa-check
                 p Once issued, it has no further interaction with the airline systems (reservation systems and Departure Control System - DCSs -). 
-              td.text-it
+              td
                 i.fas.fa-check
                 p Una vez emitido, no tiene más interacción con los sistemas de la aerolínea (sistemas de reserva y sistemas de control de salida).
 
@@ -730,68 +730,68 @@
           table.custom-checkList
             tr.tabla-b__header.text-white
               th.bg-yellow-head  Associated EMD (EMD-A)
-              th.text-it  EMD asociado
+              th  EMD asociado
             tr
               td 
                 i.fas.fa-check
                 p An associated EMD is issued for the collection of miscellaneous charges and excess baggage charges that are lifted (considered used) at the same time as the e-ticket coupon. For example, sports equipment, pets in cabin, wheelchairs, special seats and meals, unaccompanied minors, excess baggage, and so on.
-              td.text-it
+              td
                 i.fas.fa-check
                 p Se emite un EMD asociado para el cobro de cargos varios y cargos por exceso de equipaje que se levantan (se consideran usados) al mismo tiempo que el cupón del tiquete electrónico. Por ejemplo, equipo de deportes, mascotas en cabina, sillas de ruedas, asientos y comidas especiales, menores no acompañados, exceso de equipaje, etc.
             tr
               td 
                 i.fas.fa-check
                 p The associated EMD can consist of a single or multiple value coupons that are directly linked to individual flight coupons.
-              td.text-it
+              td
                 i.fas.fa-check
                 p El EMD asociado puede constar de un único cupón o cupones de valor múltiple que están directamente vinculados a cupones de vuelo individuales.
             tr
               td 
                 i.fas.fa-check
                 p Each EMD coupon that is associated to an e-ticket is referenced in the e-ticket record.
-              td.text-it
+              td
                 i.fas.fa-check
                 p Cada cupón de EMD asociado a un tiquete electrónico es referenciado en el registro del tiquete electrónico.
             tr
               td 
                 i.fas.fa-check
                 p The carrier and the routing of the EMD-A and the e-ticket coupons must match.
-              td.text-it
+              td
                 i.fas.fa-check
                 p El operador y la ruta del EMD-A y los cupones de tiquetes electrónicos deben coincidir.
             tr
               td 
                 i.fas.fa-check
                 p An EMD-A can be automatically or manually associated or disassociated.
-              td.text-it
+              td
                 i.fas.fa-check
                 p Un EMD-A puede ser automática o manualmente asociado o disociado.
             tr
               td 
                 i.fas.fa-check
                 p Only airline agents can manually associate and disassociate EMD-As.
-              td.text-it
+              td
                 i.fas.fa-check
                 p Solo los agentes de la aerolínea pueden asociar y disociar EMD-As.
             tr
               td 
                 i.fas.fa-check
                 p The EMD-A's final usage depends on the e-ticket coupon it is associated to, provided that it does not become disassociated.
-              td.text-it
+              td
                 i.fas.fa-check
                 p El uso final del EMD-A depende del cupón de tiquete electrónico al que está asociado, siempre que no se disocie.
             tr.b-bottom
               td 
                 i.fas.fa-check
                 p The status of the associated EMD value coupons and the e-ticket coupons must remain synchronized.
-              td.text-it
+              td
                 i.fas.fa-check
                 p El estado de los cupones de valor de los EMD asociados y los cupones de los tiquetes electrónicos debe permanecer sincronizado.
 
     .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.color-acento-contenido.sans-flag.p-4
-          p.mb-0.text-it Información adaptada de <b>Amadeus Altéa Reservation Desktop Web - Guía del usuario - Edición 3.3. (2016, p. 270).</b>
+          p.mb-0 Información adaptada de <b>Amadeus Altéa Reservation Desktop Web - Guía del usuario - Edición 3.3. (2016, p. 270).</b>
 
     h3.titulo-tercero C. EMD (Electronic Miscellaneous Document) issued for the checking of the third bag  / <i>Documento Electrónico Misceláneo emitido por el registro de una tercera maleta.</i>
     p.mb-5.p-4
@@ -804,31 +804,31 @@
       .col-lg-10
         ul.lista-ul.compress
           li
-            p <b>EMD-00128000010</b> / <i>Número del EMD</i>
+            p <b>EMD-00128000010</b> = <i>Número del EMD</i>
           li
-            p <b>LOC-2437PA (RECORD LOCATOR) </b> / <i>Récord o Código de Reserva</i>
+            p <b>LOC-2437PA (RECORD LOCATOR) </b> = <i>Récord o Código de Reserva</i>
           li
-            p <b>POI-BOG (PLACE OF ISSUE)</b> / <i>Lugar de emisión en este caso BOGOTÁ</i>
+            p <b>POI-BOG (PLACE OF ISSUE)</b> = <i>Lugar de emisión (en este caso BOGOTÁ)</i>
           li
-            p <b>DOI-17APR13 (DATE OF ISSUE)</b> / <i>Fecha de Emisión</i>
+            p <b>DOI-17APR13 (DATE OF ISSUE)</b> = <i>Fecha de Emisión</i>
           li
-            p <b>PAX – AVILA/CLAUDIA</b> / <i>(Aquí normalmente aparece el apellido y el nombre del Pasajero – AVILA/CLAUDIA)</i>
+            p <b>PAX – AVILA/CLAUDIA</b> = <i>(Aquí normalmente aparece el apellido y el nombre del Pasajero – AVILA/CLAUDIA)</i>
           li
-            p <b>ADT (ADULT) </b> / <i>Adulto</i>
+            p <b>ADT (ADULT) </b> = <i>Adulto</i>
           li
-            p <b>RFIC-C BAGGAGE</b> / <i>Hace referencia al concepto de emisión del EMD (en este caso por equipaje)</i>
+            p <b>RFIC-C BAGGAGE</b> = <i>Hace referencia al concepto de emisión del EMD (en este caso por equipaje)</i>
           li
-            p <b>REMARKS</b> / <i>Comentarios</i>
+            p <b>REMARKS</b> = <i>Comentarios</i>
           li
-            p <b>CPN – 1 (COUPON)</b> / <i>Cupón asociado al primer trayecto del tiquete</i>
+            p <b>CPN – 1 (COUPON)</b> = <i>Cupón asociado al primer trayecto del tiquete</i>
           li
             p <b>DESCRIPTION – CHECKED BAG THIRD</b> / <i>(Descripción – se está cobrando una tercera pieza de equipaje registrada)</i>
           li
-            p <b>AA</b> / <i>American Airlines (Código del nombre de la aerolínea)</i>
+            p <b>AA</b> = <i>American Airlines (Código del nombre de la aerolínea)</i>
           li
-            p <b>BOGMIA</b> / <i>Código del aeropuerto donde inicia y donde termina el cupón (BOG = Aeropuerto El Dorado en Bogotá; MIA = Aeropuerto Internacional de Miami, en Miami)</i>
+            p <b>BOGMIA</b> = <i>Código del aeropuerto donde inicia y donde termina el cupón (BOG = Aeropuerto El Dorado en Bogotá; MIA = Aeropuerto Internacional de Miami, en Miami)</i>
           li
-            p <b>S-O (Status Open For Use)</b> / <i>Estado de la EMD abierto</i>
+            p <b>S-O (Status Open For Use)</b> = <i>Estado de la EMD abierto</i>
 
 
 
@@ -941,8 +941,8 @@
             .tarjeta.color-secundario.p-3(x="55%" y="38%")
               p S-V (Status Void) = Estado de la EMD anulado
 
-    h3.titulo-tercero C. Requesting the Wheelchair Assitance Service / <i>Solicitud del servicio de asistencia en silla de ruedas</i>
-    p.mb-5  The following is a dialogue in which a passenger has requested a the wheelchair assistance service. / <i>A continuación se muestra un diálogo en el que un pasajero ha solicitado el servicio de asistencia en silla de ruedas.</i>
+    h3.titulo-tercero C. Requesting the Wheelchair Assitance Service / Solicitud del servicio de asistencia en silla de ruedas
+    p.mb-5  The following is a dialogue in which a passenger has requested a the wheelchair assistance service. / A continuación se muestra un diálogo en el que un pasajero ha solicitado el servicio de asistencia en silla de ruedas.
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -1019,55 +1019,55 @@ export default {
       {
         titulo: 'Self service Check-in',
         texto:
-          '<p><i>(Auto Registro o Auto check-in).</i><br><br>A process allowing passengers with bags to check-in at machines that can read your Passport or ID Card.</p>',
+          '<p>(Auto Registro o <i>Auto check-in</i>)<br><br>A process allowing passengers with bags to check-in at machines that can read your Passport or ID Card.</p>',
         imagen: require('@/assets/curso/t1-s2.png'),
       },
       {
         titulo: 'Passport Check/Control',
         texto:
-          '<p><i>(Control de Pasaportes).</i><br><br>The place at an airport, where an official checks your passport to validate your identity.</p>',
+          '<p>(Control de Pasaportes).<br><br>The place at an airport, where an official checks your passport to validate your identity.</p>',
         imagen: require('@/assets/curso/t1-s2-2.png'),
       },
       {
         titulo: 'Airport Security Checkpoint',
         texto:
-          '<p><i>(Punto de control de seguridad del aeropuerto).</i><br><br>The area where the airport security staff screens and processes passengers, belongings and cabin baggage. X-Ray machines and scanners are used here.</p>',
+          '<p>(Punto de control de seguridad del aeropuerto).<br><br>The area where the airport security staff screens and processes passengers, belongings and cabin baggage. X-Ray machines and scanners are used here.</p>',
         imagen: require('@/assets/curso/t1-s2-3.png'),
       },
       {
         titulo: 'Duty Free Shop',
         texto:
-          '<p><i>(Tienda Libre de Impuestos).</i><br><br>A shop or store at the airport where goods are sold at a cheaper price because they are not taxed.</p>',
+          '<p>(Tienda Libre de Impuestos).<br><br>A shop or store at the airport where goods are sold at a cheaper price because they are not taxed.</p>',
         imagen: require('@/assets/curso/t1-s2-4.png'),
       },
       {
         titulo: 'Departure Lounge',
         texto:
-          '<p><i>(Sala de Embarque).</i><br><br>A seating area in an airport where passengers wait immediately prior to boarding. It is located next to the <i>Boarding Gate</i>.</p>',
+          '<p>(Sala de Embarque).<br><br>A seating area in an airport where passengers wait immediately prior to boarding. It is located next to the <i>Boarding Gate</i>.</p>',
         imagen: require('@/assets/curso/t1-s2-5.png'),
       },
       {
         titulo: 'Departure Gate / Boarding Gate',
         texto:
-          '<p><i>(Puerta de Salida/Partida / Puerta de Embarque o Abordaje).</i><br><br>Any of the numbered gates that allow passengers to go from the terminal to the airplane.</p>',
+          '<p>(Puerta de Salida/Partida / Puerta de Embarque o Abordaje).<br><br>Any of the numbered gates that allow passengers to go from the terminal to the airplane.</p>',
         imagen: require('@/assets/curso/t1-s2-6.png'),
       },
       {
         titulo: 'Baggage Claim / Reclaim Area',
         texto:
-          '<p><i>(Zona de Recolección de Equipaje).</i><br><br>The area in an airport where arriving passengers pick up their checked baggage.</p>',
+          '<p>(Zona de Recolección de Equipaje).<br><br>The area in an airport where arriving passengers pick up their checked baggage.</p>',
         imagen: require('@/assets/curso/t1-s2-7.png'),
       },
       {
         titulo: 'Baggage carousel / Luggage Conveyor Belt',
         texto:
-          '<p><i>(Banda/cinta de equipaje).</i><br><br>A continuously revolving belt, track or other device on which items are placed for later retrieval.</p>',
+          '<p>(Banda / cinta de equipaje).<br><br>A continuously revolving belt, track or other device on which items are placed for later retrieval.</p>',
         imagen: require('@/assets/curso/t1-s2-8.png'),
       },
       {
         titulo: 'Control Tower',
         texto:
-          '<p><i>(Torre de Control).</i><br><br>A tower at an airport from which air traffic is controlled.</p>',
+          '<p>(Torre de Control).<br><br>A tower at an airport from which air traffic is controlled.</p>',
         imagen: require('@/assets/curso/t1-s2-9.png'),
       },
     ],

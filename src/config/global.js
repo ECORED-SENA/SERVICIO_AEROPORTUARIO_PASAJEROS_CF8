@@ -123,24 +123,25 @@ export default {
         'https://www.avianca.com/otr/en/before-your-trip/prepare-your-baggage/carry-on/',
     },
     {
-      referencia: 'COPA Airlines Incorporated. (2020). Carry-on baggage.',
+      referencia:
+        'COPA Airlines Incorporated. (2020). <i>Carry-on baggage.</i>',
       link: 'https://www.copaair.com/en/web/ca/carry-on-luggage',
     },
     {
       referencia:
-        'LATAM Airlines Group. (2020). Travel Information – Baggage – Carry-on.',
+        '<i>LATAM Airlines Group. (2020). Travel Information – Baggage – Carry-on.</i>',
       link:
         'https://www.latam.com/en_us/travel-information/baggage/carry-on-baggage/',
     },
     {
       referencia:
-        'U.S. Department of Homeland Security. (2007). <i>DHS Pre-departure Aircraft Operator Compliance Requirements Reference Guide.</i> U.S. Customs and Border Protection Office of Information and Technology.',
+        'U.S. Department of Homeland Security. (2007). <i>DHS Pre-departure Aircraft Operator Compliance Requirements Reference Guide.U.S. Customs and Border Protection Office of Information and Technology.</i>',
     },
   ],
   glosario: [
     {
       termino: 'Airport special services',
-      significado: '&nbsp; Servicios especiales en el aeropuerto.',
+      significado: '&nbsp; servicios especiales en el aeropuerto.',
     },
     {
       termino: 'Associated EMD (EMD-A)',
@@ -148,67 +149,67 @@ export default {
     },
     {
       termino: 'Boarding announcements',
-      significado: '&nbsp; Anuncios de abordaje / embarque.',
+      significado: '&nbsp; anuncios de abordaje / embarque.',
     },
     {
       termino: 'Boarding process',
-      significado: '&nbsp; Proceso de abordaje / embarque.',
+      significado: '&nbsp; proceso de abordaje / embarque.',
     },
     {
       termino: 'Boarding process forms and reports',
       significado:
-        '&nbsp; Formularios e informes del proceso de abordaje / embarque.',
+        '&nbsp; formularios e informes del proceso de abordaje / embarque.',
     },
     {
       termino: 'Carry-on baggage',
       significado:
-        '&nbsp; Equipaje de mano (también, <i>hand luggage o cabin baggage</i>).',
+        '&nbsp; equipaje de mano (también, <i>hand luggage o cabin baggage</i>).',
     },
     {
       termino: 'EMD (Electronic Miscellaneous Document)',
-      significado: '&nbsp; documento electrónico misceláneo',
+      significado: '&nbsp; documento electrónico misceláneo.',
     },
     {
       termino: 'Passenger security interview',
-      significado: '&nbsp; Entrevista de seguridad del pasajero.',
+      significado: '&nbsp; entrevista de seguridad del pasajero.',
     },
     {
-      termino: 'Standalone EMD (EMD-s)',
+      termino: 'Standalone EMD (EMD-S)',
       significado: '&nbsp; EMD separado.',
     },
     {
       termino: 'Travel documents',
-      significado: '&nbsp; Documentos de viaje.',
+      significado: '&nbsp; documentos de viaje.',
     },
   ],
   complementario: [
     {
-      texto: 'Pearson. (s.f.). <i>Inglés para Turismo Internacional</i>.',
+      texto: 'Pearson. (s.f.). Inglés para Turismo Internacional.',
       tipo: 'Página web',
       link:
         'https://www.pearson.com/english/catalogue/business-english/english-international-tourism.html',
     },
     {
       texto:
-        'Amadeus Get On Board. (2012). <i>Amadeus Altea Customer Management Solution - Part 1.</i> Youtube.',
+        'Amadeus Get On Board. (2012). <i>Amadeus Altea Customer Management Solution - Part 1.</i> [Video] Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Sap7uNPgNdk',
     },
     {
       texto:
-        'Amadeus Get On Board. (2012). <i>Amadeus Altea Customer Management Solution - Part 2.</i> Youtube.',
+        'Amadeus Get On Board. (2012). <i>Amadeus Altea Customer Management Solution - Part 2.</i> [Video] Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=J_-F1tmDCxs&t=2s',
     },
     {
       texto:
-        'Amadeus Get On Board. (2012). <i>Amadeus Altea Customer Management Solution - Part 3.</i> Youtube.',
+        'Amadeus Get On Board. (2012). <i>Amadeus Altea Customer Management Solution - Part 3.</i> [Video] Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=i1nh9lEFaLY',
     },
     {
       texto:
-        'Amadeus IT Group. (2015). <i>Altéa Compensation Management.</i> Youtube.',
+        'Amadeus IT Group. (2015). <i>Altéa Compensation Management.</i> [Video] Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=XPjAy-9i1Kk',
     },
@@ -226,7 +227,7 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Yoao Salazar De La Cruz',
@@ -276,7 +277,7 @@ export default {
       },
       {
         nombre: 'Luis Fabian Robles Méndez',
-        cargo: 'Desarrollo front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -343,14 +344,14 @@ export default {
         nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

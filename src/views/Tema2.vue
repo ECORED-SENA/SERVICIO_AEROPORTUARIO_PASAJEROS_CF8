@@ -44,27 +44,27 @@
               li 
                 span.text-normal-bold 1. 
                 p.text-bold  Greeting / 
-                  span.text-normal.text-it (Saludar)
+                  span.text-normal (Saludar)
               li 
                 span.text-normal-bold 2. 
                 p.text-bold  Tell the name of the Airline / 
-                  span.text-normal.text-it  (Decir el nombre de la aerolínea)                    
+                  span.text-normal (Decir el nombre de la aerolínea)                    
               li 
                 span.text-normal-bold 3. 
                 p.text-bold  State clearly the Flight Number / 
-                  span.text-normal.text-it (Decir claramente el número del vuelo)
+                  span.text-normal (Decir claramente el número del vuelo)
               li 
                 span.text-normal-bold 4. 
                 p.text-bold  State the Route / 
-                  span.text-normal.text-it (Decir la ruta)
+                  span.text-normal (Decir la ruta)
               li 
                 span.text-normal-bold 5. 
                 p.text-bold Tell the Boarding Gate Number / 
-                  span.text-normal.text-it (Decir el número de la sala de abordaje)
+                  span.text-normal (Decir el número de la sala de abordaje)
               li 
                 span.text-normal-bold 6. 
                 p.text-bold.text-it  Inform of any changes that may arise / 
-                  span.text-normal.text-it (Informar alguna novedad que haya surgido)                 
+                  span.text-normal (Informar alguna novedad que haya surgido)                 
     
     h3.titulo-tercero B. Sample Boarding Announcements. With the help of your tutor, explore the different elements in the following announcements and practice reading them out loud. / <i>Ejemplos de anuncios de embarque. Con la ayuda del instructor, explorar los diferentes elementos de los siguientes anuncios y practicar su lectura en voz alta.</i>
     .row.justify-content-center.mb-5
@@ -93,26 +93,36 @@
             .col-lg-9
               .p-4
                 ul.lista-ul
-                  li.text-bold Ready for boarding   
-                    span.text-normal.text-it  / Listo para abordar
-                  li.text-bold Proceed to Gate B3  
-                    span.text-normal.text-it / Proceda a la Puerta B3
-                  li.text-bold  Without queuing    
-                    span.text-normal.text-it / Sin hacer fila
-                  li.text-bold  With stops in…  
-                    span.text-normal.text-it / Con escalas en…
-                  li.text-bold  Due to bad weather   
+                  li.text-bold 
+                    p.mb-0.text-bold Ready for boarding / &nbsp;   
+                      span.text-normal.text-it  Listo para abordar
+                  li
+                     p.mb-0.text-bold Proceed to Gate B3&nbsp; /  
+                      span.text-normal.text-it Proceda a la Puerta B3
+                  li.text-bold  
+                    p.mb-0.text-bold Without queuing&nbsp; /    
+                      span.text-normal.text-it Sin hacer fila
+                  li
+                    p.mb-0.text-bold With stops in…&nbsp;/   
+                      span.text-normal.text-it Con escalas en…
+                  li
+                    p.mb-0.text-bold  Due to bad weather /   
                     span.text-normal.text-it / Debido al mal tiempo
-                  li.text-bold  The flight is also slightly overbooked    
-                    span.text-normal.text-it / El vuelo también está ligeramente sobrevendido
-                  li.text-bold A complimentary travel voucher worth $300   
-                    span.text-normal.text-it / Un voucher de viaje de cortesía por valor de $300
-                  li.text-bold  Due to leave at…    
-                    span.text-normal.text-it / Previsto para salir a las…
-                  li.text-bold  Remaining passengers    
-                    span.text-normal.text-it / Los pasajeros que hacen falta
-                  li.text-bold  The flight is now closing    
-                    span.text-normal.text-it  / El vuelo ahora se está cerrando                    
+                  li
+                    p.mb-0.text-bold  The flight is also slightly overbooked&nbsp; /    
+                      span.text-normal.text-it El vuelo también está ligeramente sobrevendido
+                  li
+                    p.mb-0.text-bold  A complimentary travel voucher worth $300&nbsp;   
+                      span.text-normal.text-it / Un voucher de viaje de cortesía por valor de $300
+                  li 
+                    p.mb-0.text-bold  Due to leave at…&nbsp; /    
+                      span.text-normal.text-it Previsto para salir a las…
+                  li
+                    p.mb-0.text-bold Remaining passengers&nbsp; /    
+                      span.text-normal.text-it Los pasajeros que hacen falta
+                  li
+                    p.mb-0.text-bold The flight is now closing&nbsp; /    
+                      span.text-normal.text-it  El vuelo ahora se está cerrando                    
 
                     
             .col-lg-3.align-items-bottom
@@ -138,7 +148,7 @@
           .bloque-texto-b.color-secundario.p-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              p.mb-0 <b>The Flight Close-Outmessage</b> indicates the actual date and time of departure of a flight, the total passengers onboard, and identifies travelers, using their unique identifier, who boarded the aircraft. Two types of Flight Close-Out messages are available. One option indicates the unique identifiers of passengers who were boarded. A second option indicates the unique identifiers of passengers who were not boarded.<br>
+              p.mb-0 <b>The Flight Close-Out message</b> indicates the actual date and time of departure of a flight, the total passengers onboard, and identifies travelers, using their unique identifier, who boarded the aircraft. Two types of Flight Close-Out messages are available. One option indicates the unique identifiers of passengers who were boarded. A second option indicates the unique identifiers of passengers who were not boarded.<br>
               .bloque-texto-d__autor
                 p.text-bold According to DHS Pre-departure Aircraft Operator Compliance Requirements Reference Guide (2007, p. 24).
               i.fas.fa-quote-right
