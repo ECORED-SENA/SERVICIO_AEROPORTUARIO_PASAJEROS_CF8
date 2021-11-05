@@ -1069,7 +1069,7 @@ export default {
       {
         titulo: 'Control Tower',
         texto:
-          '<p>(Torre de Control).<br><br>A tower at an airport from which air traffic is controlled.</p>',
+          '<p>(Torre de Control)<br><br>A tower at an airport from which air traffic is controlled.</p>',
         imagen: require('@/assets/curso/t1-s2-9.png'),
       },
     ],
