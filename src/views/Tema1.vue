@@ -464,7 +464,7 @@
             .tarjeta.color-secundario.p-3.text-center(x="5%" y="51%")
               p Exit / Salir              
 
-        p.mb-3  Nota: al escoger la opción <i>Logoff</i>, se cierra el sistema temporalmente, pero la pantalla de Sign in seguirá disponible para digitar su usuario y clave e ingresar nuevamente al sistema. Por el contrario, al escoger la opción Exit, se cerrará completamente el Customer Management.
+        p.mb-3.text-bold  Nota: al escoger la opción <i><b>Logoff</b></i>, se cierra el sistema temporalmente, pero la pantalla de <i><b>Sign in</b></i> seguirá disponible para digitar su usuario y clave e ingresar nuevamente al sistema. Por el contrario, al escoger la opción <i><b>Exit</b></i>, se cerrará completamente el <i><b>Customer Management.</b></i>
 
 
     //-- contenido imagen help
@@ -500,7 +500,7 @@
               figure
                 img.shadow-box(src='@/assets/curso/info-T6.png', alt='Ejemplo')
             .tarjeta.color-secundario.p-3.text-center(x="1%" y="1%")
-              p About / <i>Acerca de (Seleccionar la opción About JFE desplegará una ventana emergente que contiene la siguiente información)</i> 
+              p About / <i>Acerca de (Seleccionar la opción About JFE desplegará una ventana emergente que contiene la siguiente información):</i> 
             .tarjeta.color-secundario.p-3.text-center(x="30%" y="32%")
               p Copyright / <i>Derechos de autor</i> 
             .tarjeta.color-secundario.p-3.text-center(x="30%" y="50%")
