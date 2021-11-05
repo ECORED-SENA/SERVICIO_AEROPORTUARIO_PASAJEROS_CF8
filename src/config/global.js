@@ -24,7 +24,8 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Management process in counter / Proceso de manejo en counter',
+        titulo:
+          'Management process in counter / Proceso de manejo en <i>counter</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
