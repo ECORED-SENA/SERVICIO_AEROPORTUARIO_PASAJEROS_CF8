@@ -536,7 +536,8 @@
             figure
               img.shadow-box(src='@/assets/curso/info-T7.png', alt='Ejemplo EMD')
           .tarjeta.color-secundario.p-3.text-center(x="50%" y="20%")
-            p El Reporte de Error ha sido enviado a Amadeus<br>Gracias por su apoyo <br> OK
+            p El Reporte de Error ha sido enviado a Amadeus.<br>Gracias por su apoyo. <br> 
+              span.text-ob  OK
   
 
     
