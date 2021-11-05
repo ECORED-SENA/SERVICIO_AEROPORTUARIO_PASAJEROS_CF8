@@ -200,7 +200,7 @@
           figure
             img.nW(src='@/assets/curso/t1-i5.svg', alt='imagen decorativa')
         .col-lg-9
-          .p-4
+          .p-4.custom-orange
             p.mb-3  <i>* Luggage/baggage</i> es el término general (como equipaje) y está formado por <i>suitcases</i> (maletas) y <i>trunks</i> (baúles).
             p.mb-3  En Estados Unidos se usa <i>baggage</i> con más frecuencia mientras que en el Reino Unido se usa <i>luggage</i>. Estos dos términos siempre se usan en singular.
             p.mb-3  <i>Bags</i> puede traducirse como bolsos, maletas o piezas de equipaje. <i>Bags</i> acepta la forma plural.
@@ -296,7 +296,9 @@
             .col-lg-9
               .p-3
                 p.text-bold Note: some personal Items you can bring into the cabin, free of cost, include: / 
-                p.text-bold Nota: algunos artículos personales que puede traer a la cabina, sin costo, incluyen:
+                p
+                  span.text-bold Nota: 
+                  | algunos artículos personales que puede traer a la cabina, sin costo, incluyen:
                 ul.lista-ul.compress
                   li 
                     i.fas.fa-check
