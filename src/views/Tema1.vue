@@ -220,9 +220,12 @@
     //- Slide 1  
     SlyderB.mb-5(:datos="datosSlyder")
 
-    h3.titulo-tercero C. At the check-in counter. Explore the following dialogue with the help of a good dictionary. Pay special attention to the security questions asked by the check-in attendant. / En el 
-      span.text-ob  counter 
-      | de registro. Explorar el siguiente diálogo con la ayuda de un buen diccionario. Prestar especial atención a las preguntas de seguridad que hace la asistente de counter, revisar con atención el siguiente video:
+    h3.titulo-tercero C. At the check-in counter. Explore the following dialogue with the help of a good dictionary. Pay special attention to the security questions asked by the check-in attendant. / 
+      span.text-normal En el 
+      span.text-ob.text-normal  counter 
+      span.text-normal  de registro. Explorar el siguiente diálogo con la ayuda de un buen diccionario. Prestar especial atención a las preguntas de seguridad que hace la asistente de 
+      span.text-ob.text-normal  counter, 
+      span.text-normal  revisar con atención el siguiente video:
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -241,15 +244,15 @@
             ul.lista-ul
               li 
                 i.fas.fa-check
-                p <b>21 in (55 cm) x 13 in (35 cm) x 9 in (25 cm)</b> <i>(height, depth and width)</i>, including the pocket, wheels and handle.
+                p <b>21 in (55 cm) x 13 in (35 cm) x 9 in (25 cm)</b> (height, depth and width), including the pocket, wheels and handle.
               li 
                 i.fas.fa-check
-                p <b>10 kilos (22 pounds)</b> in <i>Economy</i> and <b>16 kilos (35 pounds)</b> in <i>Premium Economy</i> or <i>Premium Business</i>.  
+                p <b>10 kilos (22 pounds)</b> in Economy and <b>16 kilos (35 pounds)</b> in Premium Economy or Premium Business.  
             .h4 Personal Item Size Limit
             ul.lista-ul
               li 
                 i.fas.fa-check
-                p <b>18 in (45 cm) x 14 in (35 cm) x 8 (20 cm)</b> <i>(height, depth and width)</i>, including the pockets, wheels, handle, etc.
+                p <b>18 in (45 cm) x 14 in (35 cm) x 8 (20 cm)</b> (height, depth and width), including the pockets, wheels, handle, etc.
 
       .tarjeta.color-secundario.p-4(titulo="COPA AIRLINES")
         .row
@@ -261,15 +264,15 @@
             ul.lista-ul
               li 
                 i.fas.fa-check
-                p <b>22’’ (56 cm)</b> <i>height</i> <b>x 14’’ (36 cm)</b> <i>length</i> <b>x 10’’ (26 cm)</b> <i>wide.</i>
+                p <b>22’’ (56 cm)</b> height <b>x 14’’ (36 cm)</b> length <b>x 10’’ (26 cm)</b> wide.
               li 
                 i.fas.fa-check
-                p <b>10 kilos (22 pounds)</b> <i>for all passengers. </i>
+                p <b>10 kilos (22 pounds)</b> for all passengers. 
             .h4 Personal Item Size Limit
             ul.lista-ul
               li 
                 i.fas.fa-check
-                p <b>17’’ (43 cm)</b> <i>high</i> x <b>10’’ (25 cm)</b> <i>length</i> x <b>9’’ (22 cm)</b> <i>wide</i>.
+                p <b>17’’ (43 cm)</b> high x <b>10’’ (25 cm)</b> length x <b>9’’ (22 cm)</b> wide.
 
       .tarjeta.color-secundario.p-4(titulo="AVIANCA")
         .row
@@ -281,15 +284,15 @@
             ul.lista-ul
               li 
                 i.fas.fa-check
-                p <b>55 cm x 35 cm x 25 cm</b><i> (height, length and width),</i> including wheels and handles.
+                p <b>55 cm x 35 cm x 25 cm</b> (height, length and width), including wheels and handles.
               li 
                 i.fas.fa-check
-                p <b>10 kilos (22 pounds)</b> <i>for all passengers. </i>
+                p <b>10 kilos (22 pounds)</b> for all passengers. 
             .h4 Personal Item Size Limit
             ul.lista-ul
               li 
                 i.fas.fa-check
-                p <b>45 cm x 35 cm x 25 cm</b> <i>(height, length and width).</i>
+                p <b>45 cm x 35 cm x 25 cm</b> (height, length and width).
     
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -307,40 +310,40 @@
                 ul.lista-ul.compress
                   li 
                     i.fas.fa-check
-                    p <b>Food to be eaten on board the aircraft</b> / <i>[Alimentos para consumir a bordo del avión]</i>
+                    p <b>Food to be eaten on board the aircraft</b> / <i>Alimentos para consumir a bordo del avión</i>
                   li 
                     i.fas.fa-check
-                    p <b>Products purchased at the airport</b> / <i>[Productos comprados en el aeropuerto]</i>
+                    p <b>Products purchased at the airport</b> / <i>Productos comprados en el aeropuerto</i>
                   li 
                     i.fas.fa-check
-                    p <b>A purse or handbag</b> / <i>[Un bolso o cartera]</i>
+                    p <b>A purse or handbag</b> / <i>Un bolso o cartera</i>
                   li 
                     i.fas.fa-check
-                    p <b>A backpack</b> / <i>[Un morral]</i>
+                    p <b>A backpack</b> / <i>Un morral</i>
                   li 
                     i.fas.fa-check
-                    p <b>A briefcase</b> / <i>[Un maletín]</i>
+                    p <b>A briefcase</b> / <i>Un maletín</i>
                   li 
                     i.fas.fa-check
-                    p <b>A laptop case or bag</b> / <i>[Un maletín o bolso para portátil]</i>
+                    p <b>A laptop case or bag</b> / <i>Un maletín o bolso para portátil</i>
                   li 
                     i.fas.fa-check
-                    p <b>A video game console (PlayStation®, Xbox®, or Nintendo®)</b> / <i> [Una consola de videojuegos]</i>
+                    p <b>A video game console (PlayStation®, Xbox®, or Nintendo®)</b> / <i> Una consola de videojuegos</i>
                   li 
                     i.fas.fa-check
-                    p <b>A jacket or coat</b> / <i>[Una chaqueta o abrigo]</i>
+                    p <b>A jacket or coat</b> / <i>Una chaqueta o abrigo</i>
                   li 
                     i.fas.fa-check
-                    p <b>A pocket umbrella</b> / <i>[Una sombrilla de bolsillo]</i>
+                    p <b>A pocket umbrella</b> / <i>Una sombrilla de bolsillo</i>
                   li 
                     i.fas.fa-check
-                    p <b>A travel pillow</b> / <i>[Una almohada de viaje]</i>
+                    p <b>A travel pillow</b> / <i>Una almohada de viaje</i>
                   li 
                     i.fas.fa-check
-                    p <b>A small waist bag (like a fanny pack)</b> / <i>[Una riñonera (como un bolso de cintura)]</i>
+                    p <b>A small waist bag (like a fanny pack)</b> / <i>Una riñonera (como un bolso de cintura)</i>
                   li 
                     i.fas.fa-check
-                    p <b>Headphones, or reading material</b> / <i>[Auriculares o material de lectura]</i>
+                    p <b>Headphones, or reading material</b> / <i>Auriculares o material de lectura</i>
 
     h3.titulo-tercero E. Excess Baggage. Explore this second mini-dialogue and learn the way to handle an excess baggage situation. / <i>Exceso de Equipaje. Explorar este segundo mini diálogo y aprender la forma de cómo manejar un caso de exceso de equipaje, observar con atención:</i>
     figure.mb-5
@@ -609,7 +612,7 @@
     SlyderB.mb-5(:datos="datosSlyder2")    
 
     h3.titulo-tercero C. Asking for and giving directions at the airport / <i> Pidiendo y dando orientación para encontrar las diferentes áreas en el aeropuerto.</i>
-    p.mb-5  Let´s explore together in the following dialogue some ways of asking for and giving directions about the main areas at an airport. / [Explorar a través del siguiente video con un diálogo sobre algunas formas de pedir y dar orientación sobre las principales áreas de un aeropuerto.]
+    p.mb-5  Let´s explore together in the following dialogue some ways of asking for and giving directions about the main areas at an airport. / Explorar a través del siguiente video con un diálogo sobre algunas formas de pedir y dar orientación sobre las principales áreas de un aeropuerto.
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -680,7 +683,7 @@
             .bloque-texto-b__texto
               i.fas.fa-quote-left
               p.mb-0.text-bold  Un 
-                span.text-it  Standalone EMD
+                span.text-it  Standalone EMD 
                 | (EMD-S) = (EMD SEPARADO) se emite para servicios no relacionados con el vuelo o para otros cargos (elementos SVC), es decir, es independiente de un tiquete. Por ejemplo: acceso a Sala 
                 span.text-it  VIP, 
                 | parqueo en el aeropuerto, etc.<br>
@@ -863,7 +866,7 @@
         figure
           img.nW(src='@/assets/curso/t8-m2.svg', alt='icono decorativa')
     h3.titulo-tercero A. Some Special Services / <i>Algunos Servicios Especiales</i>
-    p.mb-5  Let´s explore together some of the main special services requested by passengers. / <i>Explorar algunos de los principales servicios especiales solicitados por los pasajeros.</i>
+    p.mb-5  Let´s explore together some of the main special services requested by passengers. / Explorar algunos de los principales servicios especiales solicitados por los pasajeros.
 
     TabsA.color-acento-botones.mb-5
       .tarjeta.color-secundario.p-4(titulo="1. Excess baggage")
@@ -1041,43 +1044,43 @@ export default {
       {
         titulo: 'Passport Check/Control',
         texto:
-          '<p>(Control de Pasaportes).<br><br>The place at an airport, where an official checks your passport to validate your identity.</p>',
+          '<p>(Control de Pasaportes)<br><br>The place at an airport, where an official checks your passport to validate your identity.</p>',
         imagen: require('@/assets/curso/t1-s2-2.png'),
       },
       {
         titulo: 'Airport Security Checkpoint',
         texto:
-          '<p>(Punto de control de seguridad del aeropuerto).<br><br>The area where the airport security staff screens and processes passengers, belongings and cabin baggage. X-Ray machines and scanners are used here.</p>',
+          '<p>(Punto de control de seguridad del aeropuerto)<br><br>The area where the airport security staff screens and processes passengers, belongings and cabin baggage. X-Ray machines and scanners are used here.</p>',
         imagen: require('@/assets/curso/t1-s2-3.png'),
       },
       {
         titulo: 'Duty Free Shop',
         texto:
-          '<p>(Tienda Libre de Impuestos).<br><br>A shop or store at the airport where goods are sold at a cheaper price because they are not taxed.</p>',
+          '<p>(Tienda Libre de Impuestos)<br><br>A shop or store at the airport where goods are sold at a cheaper price because they are not taxed.</p>',
         imagen: require('@/assets/curso/t1-s2-4.png'),
       },
       {
         titulo: 'Departure Lounge',
         texto:
-          '<p>(Sala de Embarque).<br><br>A seating area in an airport where passengers wait immediately prior to boarding. It is located next to the <i>Boarding Gate</i>.</p>',
+          '<p>(Sala de Embarque)<br><br>A seating area in an airport where passengers wait immediately prior to boarding. It is located next to the <i>Boarding Gate</i>.</p>',
         imagen: require('@/assets/curso/t1-s2-5.png'),
       },
       {
         titulo: 'Departure Gate / Boarding Gate',
         texto:
-          '<p>(Puerta de Salida/Partida / Puerta de Embarque o Abordaje).<br><br>Any of the numbered gates that allow passengers to go from the terminal to the airplane.</p>',
+          '<p>(Puerta de Salida/Partida / Puerta de Embarque o Abordaje)<br><br>Any of the numbered gates that allow passengers to go from the terminal to the airplane.</p>',
         imagen: require('@/assets/curso/t1-s2-6.png'),
       },
       {
         titulo: 'Baggage Claim / Reclaim Area',
         texto:
-          '<p>(Zona de Recolección de Equipaje).<br><br>The area in an airport where arriving passengers pick up their checked baggage.</p>',
+          '<p>(Zona de Recolección de Equipaje)<br><br>The area in an airport where arriving passengers pick up their checked baggage.</p>',
         imagen: require('@/assets/curso/t1-s2-7.png'),
       },
       {
         titulo: 'Baggage carousel / Luggage Conveyor Belt',
         texto:
-          '<p>(Banda / cinta de equipaje).<br><br>A continuously revolving belt, track or other device on which items are placed for later retrieval.</p>',
+          '<p>(Banda / cinta de equipaje)<br><br>A continuously revolving belt, track or other device on which items are placed for later retrieval.</p>',
         imagen: require('@/assets/curso/t1-s2-8.png'),
       },
       {
