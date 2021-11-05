@@ -130,7 +130,7 @@ export default {
     },
     {
       referencia:
-        '<i>LATAM Airlines Group. (2020). Travel Information – Baggage – Carry-on.</i>',
+        'LATAM Airlines Group. (2020). <i>Travel Information – Baggage – Carry-on.</i>',
       link:
         'https://www.latam.com/en_us/travel-information/baggage/carry-on-baggage/',
     },

@@ -5,7 +5,8 @@
     .titulo-principal
       .titulo-principal__numero
         span  1
-      h1 Management process in counter / <i>Proceso de manejo en counter</i>
+      h1 Management process in counter / Proceso de manejo en 
+        span.text-ob counter
 
     .row.mb-2
       .col-lg-6
@@ -32,7 +33,9 @@
           img(src='@/assets/curso/t1-i2.svg', alt='mujer registrandose en sala de espera')
     .tarjeta.translated.p-3.mb-5      
       p.mb-3.text-it  Este es un paso muy importante que tiene lugar al inicio del proceso de viaje, corresponde a uno de los procesos de seguridad con el que se busca la prevención de incidentes o accidentes. El procedimiento de seguridad para un vuelo no aplica solo para los pasajeros, también aplica para las tripulaciones.
-      p.mb-3.text-it  Las entrevistas de seguridad normalmente aplican para vuelos a los Estados Unidos por directriz de la TSA (Transportation Security Administration), esta entidad norteamericana es la encargada de gestionar todo lo relacionado con la seguridad en los diferentes sistemas de transporte, en especial el aéreo.
+      p.mb-3.text-it  Las entrevistas de seguridad normalmente aplican para vuelos a los Estados Unidos por directriz de la TSA 
+        span.text-ob  (Transportation Security Administration), 
+        | esta entidad norteamericana es la encargada de gestionar todo lo relacionado con la seguridad en los diferentes sistemas de transporte, en especial el aéreo.
       p.mb-5.text-it  Las preguntas formuladas durante esta entrevista hacen referencia a las mercancías peligrosas, sustancias corrosivas, explosivos, baterías de litio, etc. Tienen el fin de evitar que el equipaje contenga mercancía no apta para vuelo comercial.
 
     h3.titulo-tercero A. Questions passengers may be asked at check-in / <i>Preguntas que los pasajeros pueden tener que responder durante el registro en el aeropuerto.</i>
@@ -217,7 +220,9 @@
     //- Slide 1  
     SlyderB.mb-5(:datos="datosSlyder")
 
-    h3.titulo-tercero C. At the check-in counter. Explore the following dialogue with the help of a good dictionary. Pay special attention to the security questions asked by the check-in attendant. / <i>En el counter de registro. Explorar el siguiente diálogo con la ayuda de un buen diccionario. Prestar especial atención a las preguntas de seguridad que hace la asistente de counter, revisar con atención el siguiente video:</i>
+    h3.titulo-tercero C. At the check-in counter. Explore the following dialogue with the help of a good dictionary. Pay special attention to the security questions asked by the check-in attendant. / En el 
+      span.text-ob  counter 
+      | de registro. Explorar el siguiente diálogo con la ayuda de un buen diccionario. Prestar especial atención a las preguntas de seguridad que hace la asistente de counter, revisar con atención el siguiente video:
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -343,7 +348,9 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     
-    h3.titulo-tercero F. Customer Management System. At the same time the attendant at the counter asks the security questions, she also checks other aspects such as the ticket number, whether or not the passenger is fit to travel and whether they are traveling with children. This information must be included in the system. / <i>Sistema de Manejo de Clientes. Mientras la auxiliar en counter hace las preguntas de seguridad, al mismo tiempo ella revisa otros aspectos como el número de tiquete, si el pasajero está apto para viajar, si lleva niños. Dicha información debe ser incluida en el sistema.</i>
+    h3.titulo-tercero F. Customer Management System. At the same time the attendant at the counter asks the security questions, she also checks other aspects such as the ticket number, whether or not the passenger is fit to travel and whether they are traveling with children. This information must be included in the system. / <i>Sistema de Manejo de Clientes. Mientras la auxiliar en 
+      span.text-ob  counter 
+      | hace las preguntas de seguridad, al mismo tiempo ella revisa otros aspectos como el número de tiquete, si el pasajero está apto para viajar, si lleva niños. Dicha información debe ser incluida en el sistema.</i>
     
     h4.titulo-cuarto PART 1 – APPLICATION, DEVICE AND NAVIGATION MENU / 
       span.text-normal.text-it  PARTE 1 – LOS MENÚ DE APLICACIÓN, DISPOSITIVO Y NAVEGACIÓN
@@ -565,35 +572,35 @@
                 p <b>Immigration Area for International Flights:</b> It is where the migratory flow is controlled, that is, the entries and exits of nationals and foreigners to our country.
               td.b-left
                 .lista-ol--cuadro__vineta 1
-                p.text-it <b>Área de Migración para vuelos Internacionales:</b> es la entidad que controla el flujo migratorio, es decir, las entradas y salidas de nacionales y extranjeros a nuestro país.            
+                p <b>Área de Migración para vuelos Internacionales:</b> es la entidad que controla el flujo migratorio, es decir, las entradas y salidas de nacionales y extranjeros a nuestro país.            
             tr
               td 
                 .lista-ol--cuadro__vineta 2
                 p <b>Airport Health Services:</b> it is where emergency medical assistance within the Air Terminal facilities is provided to passengers, airport staff and users in general.
               td.b-left
                 .lista-ol--cuadro__vineta 2
-                p.text-it <b>Sanidad Aeroportuaria:</b> la entidad presta asistencia médica de urgencia dentro de las instalaciones del Terminal Aéreo a pasajeros, funcionarios del aeropuerto y a usuarios en general.            
+                p <b>Sanidad Aeroportuaria:</b> la entidad presta asistencia médica de urgencia dentro de las instalaciones del Terminal Aéreo a pasajeros, funcionarios del aeropuerto y a usuarios en general.            
             tr
               td 
                 .lista-ol--cuadro__vineta 3
                 p <b>Security checkpoints to Access the Boarding Gates:</b> Airports emphasize their security processes, that is why the checkpoints have people and luggage scanners in order to avoid any situation that threatens air security.
               td.b-left
                 .lista-ol--cuadro__vineta 3
-                p.text-it  <b>Filtros de seguridad para acceso a las salas de Abordaje:</b> los aeropuertos se enfatizan en sus procesos de seguridad, es por eso que los filtros cuentan con escáneres de personas y de equipaje con el fin de evitar cualquier situación que atente contra la seguridad aérea.          
+                p <b>Filtros de seguridad para acceso a las salas de Abordaje:</b> los aeropuertos se enfatizan en sus procesos de seguridad, es por eso que los filtros cuentan con escáneres de personas y de equipaje con el fin de evitar cualquier situación que atente contra la seguridad aérea.          
             tr
               td 
                 .lista-ol--cuadro__vineta 4
                 p <b>Departure lounge:</b> These are the appropriate areas for travelers to be comfortable while the airline staff prepares the boarding of the plane.
               td.b-left
                 .lista-ol--cuadro__vineta 4
-                p.text-it <b>Salas de embarque:</b> son los espacios adecuados para que los viajeros estén cómodos mientras el personal de la aerolínea prepara el abordaje del avión.       
+                p <b>Salas de embarque:</b> son los espacios adecuados para que los viajeros estén cómodos mientras el personal de la aerolínea prepara el abordaje del avión.       
             tr
               td 
                 .lista-ol--cuadro__vineta 5
                 p <b>Luggage conveyor belt:</b> These are the mechanisms available at the end of the travel process where travelers can collect their luggage after finishing their flight.
               td.b-left
                 .lista-ol--cuadro__vineta 5
-                p.text-it  <b>Bandas de equipajes:</b> son los mecanismos disponibles al final del proceso de viaje en donde los viajeros pueden recoger su equipaje luego de finalizar su vuelo.         
+                p  <b>Bandas de equipajes:</b> son los mecanismos disponibles al final del proceso de viaje en donde los viajeros pueden recoger su equipaje luego de finalizar su vuelo.         
 
     h3.titulo-tercero B. Some other airport terminal facilities  / <i>Algunas otras instalaciones en el aeropuerto</i>
     p.mb-5  Se observan a continuación algunas de estas instalaciones que se mencionan:
@@ -667,16 +674,22 @@
               .bloque-texto-d__autor
                 p According to Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 7).
               i.fas.fa-quote-right
-        .tarjeta.translated.p-5.mb-5
+        .tarjeta.translated.p-5.mb-5.customT
           .bloque-texto-b.color-secundario.p-4.mb-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              p.mb-0.text-bold  Un Standalone EMD (EMD-S) = (EMD SEPARADO) se emite para servicios no relacionados con el vuelo o para otros cargos (elementos SVC), es decir, es independiente de un tiquete. Por ejemplo: acceso a Sala VIP, parqueo en el aeropuerto, etc.<br>
+              p.mb-0.text-bold  Un 
+                span.text-it  Standalone EMD
+                | (EMD-S) = (EMD SEPARADO) se emite para servicios no relacionados con el vuelo o para otros cargos (elementos SVC), es decir, es independiente de un tiquete. Por ejemplo: acceso a Sala 
+                span.text-it  VIP, 
+                | parqueo en el aeropuerto, etc.<br>
               i.fas.fa-quote-right
           .bloque-texto-b.color-secundario.p-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              p.mb-0.text-bold  Un Associated EMD (EMD-A) = (EMD ASOCIADO) se emite para servicios asociados a un tiquete (elementos SSR), por lo que ambos documentos van conectados. Por ejemplo: comidas especiales, reservas de asientos, equipaje extra, menor no acompañado, etc.<br>
+              p.mb-0.text-bold  Un 
+                span.text-ob  Associated EMD 
+                | (EMD-A) = (EMD ASOCIADO) se emite para servicios asociados a un tiquete (elementos SSR), por lo que ambos documentos van conectados. Por ejemplo: comidas especiales, reservas de asientos, equipaje extra, menor no acompañado, etc.<br>
               .bloque-texto-d__autor
                 p Según Amadeus Ancillary Services - Guía de Referencia Rápida (2016, p. 7).
               i.fas.fa-quote-right
@@ -824,7 +837,7 @@
           li
             p <b>CPN – 1 (COUPON)</b> = <i>Cupón asociado al primer trayecto del tiquete</i>
           li
-            p <b>DESCRIPTION – CHECKED BAG THIRD</b> / <i>(Descripción – se está cobrando una tercera pieza de equipaje registrada)</i>
+            p <b>DESCRIPTION – CHECKED BAG THIRD</b> = <i>(Descripción – se está cobrando una tercera pieza de equipaje registrada)</i>
           li
             p <b>AA</b> = <i>American Airlines (Código del nombre de la aerolínea)</i>
           li

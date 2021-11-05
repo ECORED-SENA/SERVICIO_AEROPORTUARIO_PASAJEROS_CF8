@@ -95,34 +95,34 @@
                 ul.lista-ul
                   li.text-bold 
                     p.mb-0.text-bold Ready for boarding / &nbsp;   
-                      span.text-normal.text-it  Listo para abordar
+                      span.text-normal  Listo para abordar
                   li
                      p.mb-0.text-bold Proceed to Gate B3&nbsp; /  
-                      span.text-normal.text-it Proceda a la Puerta B3
+                      span.text-normal Proceda a la Puerta B3
                   li.text-bold  
                     p.mb-0.text-bold Without queuing&nbsp; /    
-                      span.text-normal.text-it Sin hacer fila
+                      span.text-normal Sin hacer fila
                   li
                     p.mb-0.text-bold With stops in…&nbsp;/   
-                      span.text-normal.text-it Con escalas en…
+                      span.text-normal Con escalas en…
                   li
                     p.mb-0.text-bold  Due to bad weather /   
-                    span.text-normal.text-it / Debido al mal tiempo
+                      span.text-normal  &nbsp;Debido al mal tiempo
                   li
                     p.mb-0.text-bold  The flight is also slightly overbooked&nbsp; /    
-                      span.text-normal.text-it El vuelo también está ligeramente sobrevendido
+                      span.text-normal El vuelo también está ligeramente sobrevendido
                   li
                     p.mb-0.text-bold  A complimentary travel voucher worth $300&nbsp;   
-                      span.text-normal.text-it / Un voucher de viaje de cortesía por valor de $300
+                      span.text-normal / Un <i>voucher</i> de viaje de cortesía por valor de $300
                   li 
                     p.mb-0.text-bold  Due to leave at…&nbsp; /    
-                      span.text-normal.text-it Previsto para salir a las…
+                      span.text-normal Previsto para salir a las…
                   li
                     p.mb-0.text-bold Remaining passengers&nbsp; /    
-                      span.text-normal.text-it Los pasajeros que hacen falta
+                      span.text-normal Los pasajeros que hacen falta
                   li
                     p.mb-0.text-bold The flight is now closing&nbsp; /    
-                      span.text-normal.text-it  El vuelo ahora se está cerrando                    
+                      span.text-normal  El vuelo ahora se está cerrando                    
 
                     
             .col-lg-3.align-items-bottom
