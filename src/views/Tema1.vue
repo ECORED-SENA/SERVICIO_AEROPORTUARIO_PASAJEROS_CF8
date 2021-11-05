@@ -395,7 +395,7 @@
             .tarjeta.color-secundario.p-3.text-center(x="3%" y="66%")
               p Print Screen / <i>Imprimir Pantalla (permitirá imprimir una versión críptica de la pantalla en la que se encuentre en Customer Management)</i>
             .tarjeta.color-secundario.p-3.text-center(x="3%" y="85%")
-              p Connected Devices Status / <i>Estado de los dispositivos conectados.</i>
+              p Connected Devices Status / <i>Estado de los dispositivos conectados</i>
         //-- imagen slot 2
         .wrap-Image.mb-5
           ImagenInfografica.color-acento-botones.mb-5
@@ -446,7 +446,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8 
-        p.mb-5 Se selecciona(n) la(s) aplicación(es) que se desea(n) cerrar y se presiona la tecla <b>ENTER</b> o se hace clic en el botón <b>OK</b> para proceder.
+        p.mb-5 Se selecciona(n) la(s) aplicación(es) que se desea(n) cerrar y se presiona la tecla <b><i>ENTER</i></b> o se hace clic en el botón <b><i>OK</i></b> para proceder.
         .cajon.color-secundario.px-5.mb-4.py-4
           p.mb-0.text-bold Note: a maximum of 10 application tabs can be opened at the same time. These are arranged from 0 to 9 by the system.
         .tarjeta.translated.p-4.mb-5
