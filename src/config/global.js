@@ -142,45 +142,44 @@ export default {
   glosario: [
     {
       termino: 'Airport special services',
-      significado: '&nbsp; servicios especiales en el aeropuerto.',
+      significado: 'servicios especiales en el aeropuerto.',
     },
     {
       termino: 'Associated EMD (EMD-A)',
-      significado: '&nbsp; EMD asociado.',
+      significado: '<span>EMD asociado.</span>',
     },
     {
       termino: 'Boarding announcements',
-      significado: '&nbsp; anuncios de abordaje / embarque.',
+      significado: 'anuncios de abordaje / embarque.',
     },
     {
       termino: 'Boarding process',
-      significado: '&nbsp; proceso de abordaje / embarque.',
+      significado: 'proceso de abordaje / embarque.',
     },
     {
       termino: 'Boarding process forms and reports',
-      significado:
-        '&nbsp; formularios e informes del proceso de abordaje / embarque.',
+      significado: 'formularios e informes del proceso de abordaje / embarque.',
     },
     {
       termino: 'Carry-on baggage',
       significado:
-        '&nbsp; equipaje de mano (también, <i>hand luggage o cabin baggage</i>).',
+        'equipaje de mano (también, <i>hand luggage o cabin baggage</i>).',
     },
     {
       termino: 'EMD (Electronic Miscellaneous Document)',
-      significado: '&nbsp; documento electrónico misceláneo.',
+      significado: 'documento electrónico misceláneo.',
     },
     {
       termino: 'Passenger security interview',
-      significado: '&nbsp; entrevista de seguridad del pasajero.',
+      significado: 'entrevista de seguridad del pasajero.',
     },
     {
       termino: 'Standalone EMD (EMD-S)',
-      significado: '&nbsp; EMD separado.',
+      significado: '<span>EMD separado.</span>',
     },
     {
       termino: 'Travel documents',
-      significado: '&nbsp; documentos de viaje.',
+      significado: 'documentos de viaje.',
     },
   ],
   complementario: [
