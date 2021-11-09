@@ -228,7 +228,7 @@
       span.text-normal  revisar con atención el siguiente video:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/QdL6tBi8nFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     h3.titulo-tercero D. Carry-on and Personal Item Size and Weight Limits for 3 Major Colombian Airlines. / <i>Límites de peso y tamaño para equipaje de mano y artículos personales en tres (3) aerolíneas principales de Colombia.</i>
     p.mb-5  Esta información es importante para que se conozcan los límites de peso y tamaño que tienen algunas aerolíneas como son:
@@ -615,7 +615,7 @@
     p.mb-5  Let´s explore together in the following dialogue some ways of asking for and giving directions about the main areas at an airport. / Explorar a través del siguiente video con un diálogo sobre algunas formas de pedir y dar orientación sobre las principales áreas de un aeropuerto.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/tNlng0s0UBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     Separador
     br
@@ -964,7 +964,7 @@
     p.mb-5  The following is a dialogue in which a passenger has requested a the wheelchair assistance service. / A continuación se muestra un diálogo en el que un pasajero ha solicitado el servicio de asistencia en silla de ruedas.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/MoeM7U6rm9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 
