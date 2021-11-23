@@ -12,7 +12,7 @@
       .col-lg-6
         .cajon.color-secundario.p-5.mb-5
           p.mb-3  The registration or check-in process is the process by which passengers confirm their trip, arriving at the airport in advance. In Colombia, for national or domestic flights, the traveler has to be at the airport 2 hours in advance and for international flights, 3 hours in advance. Compliance with these times by the passenger guarantees a boarding pass. During check-in, information is obtained with which the flight plan is created according to the weight of both passengers and luggage.
-          p.mb-0 In most cases, the passenger´s seating location inside the aircraft is determined during this process. In addition, it is there where the person will verify the travel documentation and receive the information about the luggage that is allowed within the baggage allowance. 
+          p.mb-0 In most cases, the passenger's seating location inside the aircraft is determined during this process. In addition, it is there where the person will verify the travel documentation and receive the information about the luggage that is allowed within the baggage allowance. 
       .col-lg-6
         figure
           img(src='@/assets/curso/t1-i1.svg', alt='gente en sala de espera')
@@ -115,7 +115,7 @@
             tr.b-bottom
               td
                 span.text-bold  Are you traveling with any liquids?
-                span.text-normal No. I know I can´t take any liquids on the plane. 
+                span.text-normal No. I know I can't take any liquids on the plane. 
               td.b-left 
                 span.text-bold  ¿Lleva con usted algunos líquidos?
                 span.text-normal No. Yo sé que no puedo llevar líquidos en el avión.               
@@ -178,7 +178,7 @@
             tr
               td
                 span.text-bold  Do you have any spare batteries, power banks or e-cigarettes in your check-in baggage? 
-                span.text-normal No, I don´t.
+                span.text-normal No, I don't.
               td.b-left 
                 span.text-bold  ¿Tiene baterías de repuesto, cargadores portátiles o cigarrillos electrónicos en su equipaje facturado? 
                 span.text-normal No, no tengo.
@@ -355,8 +355,8 @@
       span.text-ob  counter 
       | hace las preguntas de seguridad, al mismo tiempo ella revisa otros aspectos como el número de tiquete, si el pasajero está apto para viajar, si lleva niños. Dicha información debe ser incluida en el sistema.</i>
     
-    h4.titulo-cuarto PART 1 – APPLICATION, DEVICE AND NAVIGATION MENU / 
-      span.text-normal.text-it  PARTE 1 – LOS MENÚ DE APLICACIÓN, DISPOSITIVO Y NAVEGACIÓN
+    h4.titulo-cuarto PART 1 – APPLICATIONS, DEVICE AND NAVIGATION MENU / 
+      span.text-normal.text-it  PARTE 1 – LOS MENÚS DE APLICACIÓN, DISPOSITIVO Y NAVEGACIÓN
     .row.mb-5.justify-content-center
       .col-lg-4
         .bg-soft-blue      
@@ -561,7 +561,7 @@
           p.py-4  En el proceso de viaje, el pasajero debe recorrer ciertas áreas del aeropuerto para poder completar el ciclo de viaje sin ningún contratiempo y así llegar a su destino final.
     
     h3.titulo-tercero A. Different Airport Areas / <i>Diferentes Áreas en el Aeropuerto</i>
-    p.mb-5.text-bold  Let´s explore together some of the main areas at an airport. / 
+    p.mb-5.text-bold  Let's explore together some of the main areas at an airport. / 
       span.text-normal  Se exploran a continuación algunas de las principales áreas en un aeropuerto.
     .row
       .col-lg-3
@@ -612,7 +612,7 @@
     SlyderB.mb-5(:datos="datosSlyder2")    
 
     h3.titulo-tercero C. Asking for and giving directions at the airport / <i> Pidiendo y dando orientación para encontrar las diferentes áreas en el aeropuerto.</i>
-    p.mb-5  Let´s explore together in the following dialogue some ways of asking for and giving directions about the main areas at an airport. / Explorar a través del siguiente video con un diálogo sobre algunas formas de pedir y dar orientación sobre las principales áreas de un aeropuerto.
+    p.mb-5  Let's explore together in the following dialogue some ways of asking for and giving directions about the main areas at an airport. / Explorar a través del siguiente video con un diálogo sobre algunas formas de pedir y dar orientación sobre las principales áreas de un aeropuerto.
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/tNlng0s0UBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -633,12 +633,12 @@
           p.mb-4 Es importante para este proceso tener en cuenta que la documentación es el primer requisito para empezar el proceso de viaje. Saber lo que el pasajero requiere para llegar a su destino final es de vital importancia para poder hacer su registro en el sistema, por esta razón es necesario conocer acerca de documentos migratorios y documentos de viaje: pasaportes, visas, visas de tránsito, tarjeta de residencia, carnet de vacunas, pasabordo, etiquetas de equipaje y EMD.
 
     h3.titulo-tercero A. Different types of travel documents / <i>Diferentes clases de documentos de viaje</i>
-    p.mb-5.p-4  Let´s explore together the names and definitions of some travel documents. / Explorar los nombres y definiciones de algunos documentos de viaje, como son:
+    p.mb-5.p-4  Let's explore together the names and definitions of some travel documents. / Explorar los nombres y definiciones de algunos documentos de viaje, como son:
     //- Slide 3
     SlyderB.mb-5(:datos="datosSlyder3")    
 
     h3.titulo-tercero B. EMD (Electronic Miscellaneous Document) / <i>Documento Electrónico Misceláneo</i>
-    p.mb-5 Let´s explore some aspects related to EMDs. / Explorar algunos aspectos relacionados con los EMDs.
+    p.mb-5 Let's explore some aspects related to EMDs. / Explorar algunos aspectos relacionados con los EMDs.
     .row.justify-content-center.mb-5
       .col-lg-3
         figure
@@ -669,7 +669,7 @@
           .bloque-texto-b.color-secundario.p-4.mb-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              p.mb-0.text-bold  An Standalone EMD (EMD-S) is issued for non-flight related services or for other charges (SVC elements), that is, it is independent of a ticket. For example: access to the VIP lounge, parking at the airport, etc.<br>
+              p.mb-0.text-bold  A Standalone EMD (EMD-S) is issued for non-flight related services or for other charges (SVC elements), that is, it is independent of a ticket. For example: access to the VIP lounge, parking at the airport, etc.<br>
               i.fas.fa-quote-right
           .bloque-texto-b.color-secundario.p-4
             .bloque-texto-b__texto
@@ -866,7 +866,7 @@
         figure
           img.nW(src='@/assets/curso/t8-m2.svg', alt='icono decorativa')
     h3.titulo-tercero A. Some Special Services / <i>Algunos Servicios Especiales</i>
-    p.mb-5  Let´s explore together some of the main special services requested by passengers. / Explorar algunos de los principales servicios especiales solicitados por los pasajeros.
+    p.mb-5  Let's explore together some of the main special services requested by passengers. / Explorar algunos de los principales servicios especiales solicitados por los pasajeros.
 
     TabsA.color-acento-botones.mb-5
       .tarjeta.color-secundario.p-4(titulo="1. Excess baggage")
@@ -960,7 +960,7 @@
             .tarjeta.color-secundario.p-3(x="55%" y="38%")
               p S-V (Status Void) = Estado de la EMD anulado
 
-    h3.titulo-tercero C. Requesting the Wheelchair Assitance Service / Solicitud del servicio de asistencia en silla de ruedas
+    h3.titulo-tercero C. Requesting the Wheelchair Assistance Service / Solicitud del servicio de asistencia en silla de ruedas
     p.mb-5  The following is a dialogue in which a passenger has requested a the wheelchair assistance service. / A continuación se muestra un diálogo en el que un pasajero ha solicitado el servicio de asistencia en silla de ruedas.
     figure.mb-5
       .video
@@ -1000,7 +1000,7 @@ export default {
       {
         titulo: 'HAND LUGGAGE',
         texto:
-          '(Also know as Cabine Baggage). Suitcases and bags of a size suitable for carrying on to an aircraft. Normally called Carry-on Baggage in the USA.',
+          '(Also known as Cabin Baggage). Suitcases and bags of a size suitable for carrying on to an aircraft. Normally called Carry-on Baggage in the USA.',
         imagen: require('@/assets/curso/t1-s1-4.png'),
       },
       {
